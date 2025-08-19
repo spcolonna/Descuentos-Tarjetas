@@ -1,0 +1,13 @@
+[
+  {
+    "id": "brou1",
+    "storeName": "Supermercado FreshMarket",
+    "address": "Av. Rivera 3456, Montevideo",
+    "latitude": -34.9088,
+    "longitude": -56.1477,
+    "bank": "brou",
+    "category": "supermercado",
+    "discountPercentage": 10,
+    "description": "10% de descuento en el total de la compra los miércoles."
+  }
+]

@@ -442,6 +442,7 @@ class _AddEditHousePageState extends State<AddEditHousePage> {
           }
           return const SizedBox.shrink();
         }
+        return null;
       },
     );
   }

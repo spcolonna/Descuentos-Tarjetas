@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:matchhouse_flutter/models/House.dart';
 import 'package:matchhouse_flutter/screens/HouseDetailPage.dart';
 
-import 'HouseDetailPage.dart'; // <-- 1. AÑADE LA IMPORTACIÓN A LA PÁGINA DE DETALLE
+// <-- 1. AÑADE LA IMPORTACIÓN A LA PÁGINA DE DETALLE
 
 class FavoritesPage extends StatelessWidget {
   final List<House> favoriteHouses;

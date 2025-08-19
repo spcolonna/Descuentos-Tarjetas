@@ -1,0 +1,795 @@
+[
+  {
+    "id": "itau_excel_1",
+    "storeName": "Asensio Bar",
+    "address": "Av. Alfredo Arocena 1999",
+    "point": {
+      "latitude": -34.8807,
+      "longitude": -56.0618
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_2",
+    "storeName": "Basilico",
+    "address": "Cam. de los Olivos",
+    "point": {
+      "latitude": -34.7859884851324,
+      "longitude": -56.0789517933811
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_3",
+    "storeName": "Biga",
+    "address": "Guayaquí 2985",
+    "point": {
+      "latitude": -34.9062885052674,
+      "longitude": -56.1519838315373
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_4",
+    "storeName": "Bisiesto",
+    "address": "Prudencio Vazquez y Vega 864",
+    "point": {
+      "latitude": -34.9151163222918,
+      "longitude": -56.1610300027013
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_5",
+    "storeName": "Cafe Hous",
+    "address": "Velsen 4440",
+    "point": {
+      "latitude": -34.8953753207848,
+      "longitude": -56.1151549394646
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_6",
+    "storeName": "Cafe Misterio",
+    "address": "1700, of, Republic, Costa Rica",
+    "point": {
+      "latitude": -34.8855317541324,
+      "longitude": -56.0567847757159
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_7",
+    "storeName": "Cafe Santana",
+    "address": "Av. Alfredo Arocena 1996",
+    "point": {
+      "latitude": -34.8806894448518,
+      "longitude": -56.0612689468805
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_8",
+    "storeName": "Cauce",
+    "address": "Rbla. República del Perú 1371",
+    "point": {
+      "latitude": -34.9090625207045,
+      "longitude": -56.1417052892083
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_9",
+    "storeName": "Chester House",
+    "address": "Dr. Luis Bonavita 1248",
+    "point": {
+      "latitude": -34.8982912463237,
+      "longitude": -56.1348093005569
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_10",
+    "storeName": "The Coffee Point",
+    "address": "Avenida Gorlero y Calle 29",
+    "point": {
+      "latitude": -34.9600450086365,
+      "longitude": -54.9412200988613
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_11",
+    "storeName": "Cotidiano",
+    "address": "Av. Alfredo Arocena 1601",
+    "point": {
+      "latitude": -34.8885682611339,
+      "longitude": -56.0573259278397
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_12",
+    "storeName": "Crazy Crepes",
+    "address": "Zonamerica, Cam. de los Olivos 008",
+    "point": {
+      "latitude": -34.7885320708146,
+      "longitude": -56.0788383603771
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_13",
+    "storeName": "Cuervo",
+    "address": "Sta. María 1519, 15000 Ciudad de la Costa",
+    "point": {
+      "latitude": -34.8535581392043,
+      "longitude": -56.0019152665143
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_14",
+    "storeName": "Dos Orientales",
+    "address": "Chaná 2024",
+    "point": {
+      "latitude": -34.9041789976821,
+      "longitude": -56.1728881892084
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_15",
+    "storeName": "El Puesto",
+    "address": "Dr. Alejandro Schroeder 6415",
+    "point": {
+      "latitude": -34.8870218565175,
+      "longitude": -56.0588013161954
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_16",
+    "storeName": "Eladio",
+    "address": "Blvr. 26 de Marzo 1000",
+    "point": {
+      "latitude": -34.9089118310154,
+      "longitude": -56.153343648814
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_17",
+    "storeName": "Escaramuza",
+    "address": "Dr. Pablo de María 1185",
+    "point": {
+      "latitude": -34.906343103976,
+      "longitude": -56.171086316195
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_18",
+    "storeName": "Fabric",
+    "address": "Av.Gral Rivera 3433",
+    "point": {
+      "latitude": -34.90133452602,
+      "longitude": -56.1403327308932
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_19",
+    "storeName": "Hasami",
+    "address": "Av. de las Américas 6000",
+    "point": {
+      "latitude": -34.8621324036182,
+      "longitude": -56.0315449909442
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_20",
+    "storeName": "HTQ",
+    "address": "Jaime Zudáñez 2601",
+    "point": {
+      "latitude": -34.9158627215271,
+      "longitude": -56.1560499622216
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_21",
+    "storeName": "Hugo Soca",
+    "address": "Luis Franzini 955",
+    "point": {
+      "latitude": -34.9131336070806,
+      "longitude": -56.1591095603725
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_22",
+    "storeName": "La Cocina de Pedro",
+    "address": "Av. Gonzalo Ramírez 1483",
+    "point": {
+      "latitude": -34.9122497199578,
+      "longitude": -56.1830204873592
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_23",
+    "storeName": "La Corte",
+    "address": "Plaza Matriz, Sarandí 586",
+    "point": {
+      "latitude": -34.9068689052153,
+      "longitude": -56.2031157161948
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_24",
+    "storeName": "La Criolla",
+    "address": "Gral. Gregorio Suárez 2746",
+    "point": {
+      "latitude": -34.9185492409557,
+      "longitude": -56.1594996315367
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_25",
+    "storeName": "La Molienda",
+    "address": "José Ellauri 350",
+    "point": {
+      "latitude": -34.924520752085,
+      "longitude": -56.1584401560305
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_26",
+    "storeName": "La Panera Rosa",
+    "address": "José Ellauri 350",
+    "point": {
+      "latitude": -34.9235280630979,
+      "longitude": -56.1594086126095
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_27",
+    "storeName": "La Pantalla",
+    "address": "Michigan 1404",
+    "point": {
+      "latitude": -34.8954611772995,
+      "longitude": -56.0995581180445
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_28",
+    "storeName": "La Parrillita de Viñoly",
+    "address": "Ramón Fernández 256",
+    "point": {
+      "latitude": -34.9246535505327,
+      "longitude": -56.1607531794126
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_29",
+    "storeName": "La Peatonal",
+    "address": "Carlos Federico Saez 6697",
+    "point": {
+      "latitude": -34.8896388657082,
+      "longitude": -56.0553029738668
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_30",
+    "storeName": "La Perdiz",
+    "address": "Guipúzcoa 350",
+    "point": {
+      "latitude": -34.9247537643859,
+      "longitude": -56.1568333585231
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_31",
+    "storeName": "La Social",
+    "address": "Libertad 2535",
+    "point": {
+      "latitude": -34.910644402813,
+      "longitude": -56.158454331537
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_32",
+    "storeName": "Cerveceria Malafama",
+    "address": "Maldonado 1970",
+    "point": {
+      "latitude": -34.9085124975067,
+      "longitude": -56.172493073866
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_33",
+    "storeName": "Manzanar",
+    "address": "Carlos Federico Saez 6463",
+    "point": {
+      "latitude": -34.8897420662745,
+      "longitude": -56.0559394738667
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_34",
+    "storeName": "Cucina Milajó",
+    "address": "Libertad 2919",
+    "point": {
+      "latitude": -34.9069224905127,
+      "longitude": -56.1509815585236
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_35",
+    "storeName": "Misushi",
+    "address": "Luis Franzini 907",
+    "point": {
+      "latitude": -34.9140132198095,
+      "longitude": -56.159012489208
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_36",
+    "storeName": "Morelia",
+    "address": "Guipúzcoa 447 esq, Joaquín Núñez",
+    "point": {
+      "latitude": -34.9226454776469,
+      "longitude": -56.1559064748845
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_37",
+    "storeName": "No Tan Santos",
+    "address": "Cambara 1614",
+    "point": {
+      "latitude": -34.8886309660431,
+      "longitude": -56.057903531538
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_38",
+    "storeName": "Nueva Malvín",
+    "address": "Hipólito Yrigoyen 1419",
+    "point": {
+      "latitude": -34.894889575236,
+      "longitude": -56.1080678738666
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_39",
+    "storeName": "Paninis",
+    "address": "Blvr. 26 de Marzo 3586",
+    "point": {
+      "latitude": -34.9053484003131,
+      "longitude": -56.1347616161949
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_40",
+    "storeName": "Pez Globo",
+    "address": "Blvr. Juan Benito Blanco 708",
+    "point": {
+      "latitude": -34.9166381776319,
+      "longitude": -56.150930633439
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_41",
+    "storeName": "Piso 40",
+    "address": "World Trade Center Montevideo 4, 1266, Piso 40,, Dr. Luis Bonavita",
+    "point": {
+      "latitude": -34.9035767019794,
+      "longitude": -56.1349200738663
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_42",
+    "storeName": "Polo Bamba",
+    "address": "Blvr. 26 de Marzo 958",
+    "point": {
+      "latitude": -34.9126791273369,
+      "longitude": -56.1533095622218
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_43",
+    "storeName": "Pompier",
+    "address": "Costa Rica 1740",
+    "point": {
+      "latitude": -34.8849858588411,
+      "longitude": -56.0573781064006
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_44",
+    "storeName": "Rio",
+    "address": "Carlos Federico Saez 6430",
+    "point": {
+      "latitude": -34.8905130677606,
+      "longitude": -56.0569454738666
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_45",
+    "storeName": "Rudy Burgers",
+    "address": "Blvr. 26 de Marzo 3471",
+    "point": {
+      "latitude": -34.9027453169202,
+      "longitude": -56.1389046198934
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_46",
+    "storeName": "Rudy Burgers",
+    "address": "Divina Comedia 1740",
+    "point": {
+      "latitude": -34.8833942485971,
+      "longitude": -56.0602071488141
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_47",
+    "storeName": "Rudy Burgers",
+    "address": "Guipúzcoa 332",
+    "point": {
+      "latitude": -34.9223286734402,
+      "longitude": -56.1568140419669
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_48",
+    "storeName": "Rudy Burgers",
+    "address": "Ejido 1301",
+    "point": {
+      "latitude": -34.9034659913305,
+      "longitude": -56.1870264429881
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_49",
+    "storeName": "Sanguche",
+    "address": "Dr. Tristán Narvaja 1648",
+    "point": {
+      "latitude": -34.8997405891336,
+      "longitude": -56.1786056180442
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_50",
+    "storeName": "Dulce Sofia",
+    "address": "Luis de la Torre 845",
+    "point": {
+      "latitude": -34.913024730049,
+      "longitude": -56.1561274244371
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_51",
+    "storeName": "Saint Germain",
+    "address": "Pte. Gral. Oscar Gestido 2805",
+    "point": {
+      "latitude": -34.9056170409672,
+      "longitude": -56.153497703050945
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_52",
+    "storeName": "Sudestada",
+    "address": "3VW7+PR4, Dr. Luis Bonavita 1315",
+    "point": {
+      "latitude": -34.902903504355,
+      "longitude": -56.1352487585239
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_53",
+    "storeName": "Sushi Club",
+    "address": "Guipúzcoa 454",
+    "point": {
+      "latitude": -34.9231365532473,
+      "longitude": -56.1556379315367
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_54",
+    "storeName": "Sushi Wok Perú",
+    "address": "Manuel Vicente Pagola 3247",
+    "point": {
+      "latitude": -34.9082724068916,
+      "longitude": -56.1457676045508
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_55",
+    "storeName": "Tandory",
+    "address": "Libertad 2851",
+    "point": {
+      "latitude": -34.9073264231905,
+      "longitude": -56.1523816757152
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_56",
+    "storeName": "Tintos y Rubias",
+    "address": "Pedro Fco. Berro 797",
+    "point": {
+      "latitude": -34.9140764061674,
+      "longitude": -56.1533479329084
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_57",
+    "storeName": "Tomás",
+    "address": "Federico N. Abadie 2912",
+    "point": {
+      "latitude": -34.9172435596391,
+      "longitude": -56.1499914742309
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_58",
+    "storeName": "Trouville",
+    "address": "Alejandro Chucarro 1031",
+    "point": {
+      "latitude": -34.9124713790292,
+      "longitude": -56.1496284566743
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_59",
+    "storeName": "Vela",
+    "address": "Av. Gabriela Mistral 2231",
+    "point": {
+      "latitude": -34.8641498281638,
+      "longitude": -56.03166341586
+    },
+    "bank": "Itau",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_60",
+    "storeName": "El VIrrey",
+    "address": "21 de Setiembre 2747,",
+    "point": {
+      "latitude": -34.9129212830508,
+      "longitude": -56.1574095033362
+    },
+    "bank": "Itau",
+    "category": "Librerías",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "itau_excel_61",
+    "storeName": "Escaramuza",
+    "address": "Dr. Pablo de María 1185",
+    "point": {
+      "latitude": -34.906343103976,
+      "longitude": -56.171086316195
+    },
+    "bank": "Itau",
+    "category": "Librerías",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  }
+]

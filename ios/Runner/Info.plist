@@ -60,5 +60,14 @@
     <string>Necesitamos acceso a tu cámara por si quieres tomar una foto de la propiedad.</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Necesitamos acceso a tu micrófono por si quieres grabar un video de la propiedad.</string>
+    <key>GADApplicationIdentifier</key>
+        <string>ca-app-pub-9552343552775183~8047903953</string>
+        <key>SKAdNetworkItems</key>
+        <array>
+          <dict>
+            <key>SKAdNetworkIdentifier</key>
+            <string>cstr6suwn9.skadnetwork</string>
+          </dict>
+        </array>
 </dict>
 </plist>

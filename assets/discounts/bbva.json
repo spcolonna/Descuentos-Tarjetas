@@ -1,0 +1,13 @@
+[
+  {
+    "id": "bbva1",
+    "storeName": "Cine del Sol",
+    "address": "Av. de las Américas 7890, Montevideo",
+    "latitude": -34.8836,
+    "longitude": -56.0505,
+    "bank": "bbva",
+    "category": "otro",
+    "discountPercentage": 50,
+    "description": "2x1 en entradas de cine todos los jueves con tarjetas de crédito BBVA."
+  }
+]

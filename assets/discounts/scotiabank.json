@@ -1,0 +1,626 @@
+[
+  {
+    "id": "scotia_excel_1",
+    "storeName": "Koffee Skates",
+    "address": "Coronel Mora 493",
+    "point": {
+      "latitude": -34.9202440579203,
+      "longitude": -56.1595272601199
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_2",
+    "storeName": "Cafe Doré",
+    "address": "Av.Gral Rivera 2628",
+    "point": {
+      "latitude": -34.9031823937528,
+      "longitude": -56.1583155668162
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_3",
+    "storeName": "Expreso Pocitos",
+    "address": "Blvr. Juan Benito Blanco 956",
+    "point": {
+      "latitude": -34.9139393144422,
+      "longitude": -56.1491333288355
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_4",
+    "storeName": "Bliss Cookies",
+    "address": "José Ellauri 407",
+    "point": {
+      "latitude": -34.9224994086284,
+      "longitude": -56.1591443508239
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_5",
+    "storeName": "Américo Café",
+    "address": "Luis de la Torre 565",
+    "point": {
+      "latitude": -34.9184953684642,
+      "longitude": -56.1590908754622
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_6",
+    "storeName": "Spazio Moka",
+    "address": "José Ellauri 982",
+    "point": {
+      "latitude": -34.9122957338324,
+      "longitude": -56.1533212269864
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_7",
+    "storeName": "Angosto",
+    "address": "Av. Luis Alberto de Herrera 1090",
+    "point": {
+      "latitude": -34.9077212414711,
+      "longitude": -56.1358004336325
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_8",
+    "storeName": "Los Dominguez",
+    "address": "Montevideo Shopping",
+    "point": {
+      "latitude": -34.9028934161581,
+      "longitude": -56.1359816134932
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_9",
+    "storeName": "Los Francesitos",
+    "address": "Av San Marino 1306-1372",
+    "point": {
+      "latitude": -34.8957346709227,
+      "longitude": -56.0729775847355
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_10",
+    "storeName": "La Diagonal",
+    "address": "De la Libertad 42, 15500 Joaquín Suárez",
+    "point": {
+      "latitude": -34.7346290237185,
+      "longitude": -56.0311654651607
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_11",
+    "storeName": "La Diecisiete Brasas y Afines",
+    "address": "Bajada 17, Rambla Costanera",
+    "point": {
+      "latitude": -34.8435173647629,
+      "longitude": -55.9692771711644
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_12",
+    "storeName": "Patio Euskadi",
+    "address": "Luis de la Torre 730",
+    "point": {
+      "latitude": -34.9166528693719,
+      "longitude": -56.1562048711644
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_13",
+    "storeName": "Oro del Rhin",
+    "address": "21 de Setiembre 2900",
+    "point": {
+      "latitude": -34.9193510519401,
+      "longitude": -56.1543905711644
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_14",
+    "storeName": "Lion Dor",
+    "address": "Av. 18 de Julio 1981",
+    "point": {
+      "latitude": -34.9004773137294,
+      "longitude": -56.1731746441779
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_15",
+    "storeName": "Burger Time",
+    "address": "Av. Luis Alberto de Herrera 1245",
+    "point": {
+      "latitude": -34.8583554147565,
+      "longitude": -56.1358269021639
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_16",
+    "storeName": "Bodega Bouza",
+    "address": "Cno. de la Redención 7658",
+    "point": {
+      "latitude": -34.7906044641229,
+      "longitude": -56.2763986896015
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_17",
+    "storeName": "La Pasiva",
+    "address": "21 de Setiembre 2807",
+    "point": {
+      "latitude": -34.9178043309942,
+      "longitude": -56.1569882315368
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_18",
+    "storeName": "Carbonada",
+    "address": "Francisco Joaquín Muñoz 3100",
+    "point": {
+      "latitude": -34.9051994284373,
+      "longitude": -56.147693746027
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_19",
+    "storeName": "Portisur",
+    "address": "Av.Gral Rivera 2846",
+    "point": {
+      "latitude": -34.902496742770694,
+      "longitude": -56.15349412041249
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 10,
+    "description": "10% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_20",
+    "storeName": "Lucciano's",
+    "address": "José Ellauri 367",
+    "point": {
+      "latitude": -34.9230687268334,
+      "longitude": -56.1596470074879
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 50,
+    "description": "50% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_21",
+    "storeName": "Rodelú",
+    "address": "Av. Luis Alberto de Herrera 1172",
+    "point": {
+      "latitude": -34.9059419336469,
+      "longitude": -56.1364642153423
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_22",
+    "storeName": "Almacén de pizzas",
+    "address": "Av. Franklin Delano Roosevelt, 20000 Punta del Este",
+    "point": {
+      "latitude": -34.9420653550116,
+      "longitude": -54.931480255822
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_23",
+    "storeName": "El Palenque",
+    "address": "Pérez Castellano 1579",
+    "point": {
+      "latitude": -34.9053534433716,
+      "longitude": -56.2114412850408
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_24",
+    "storeName": "Meat Boss",
+    "address": "Av. Dr. Francisco Soca 1274",
+    "point": {
+      "latitude": -34.9063058260758,
+      "longitude": -56.1544321171914
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_25",
+    "storeName": "Oso Pardo",
+    "address": "Obligado 1304",
+    "point": {
+      "latitude": -34.9046852988211,
+      "longitude": -56.1607029738661
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_26",
+    "storeName": "Panda Bar",
+    "address": "Joaquín Núñez 2859",
+    "point": {
+      "latitude": -34.9215224296564,
+      "longitude": -56.1592100786522
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_27",
+    "storeName": "Brujona",
+    "address": "Ramón Fernández 285",
+    "point": {
+      "latitude": -34.9241954427255,
+      "longitude": -56.1607114027011
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_28",
+    "storeName": "Pizzería popular",
+    "address": "Joaquín Núñez 2848",
+    "point": {
+      "latitude": -34.9214817220104,
+      "longitude": -56.1596671651591
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_29",
+    "storeName": "Bar Rodo",
+    "address": "Bv. España 2248",
+    "point": {
+      "latitude": -34.9095927125503,
+      "longitude": -56.1673596584125
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_30",
+    "storeName": "El Viejo Sosa",
+    "address": "Coronel Mora 603",
+    "point": {
+      "latitude": -34.9188605848499,
+      "longitude": -56.157505980294
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_31",
+    "storeName": "Hard Rock Cafe",
+    "address": "Rbla. Armenia 1624",
+    "point": {
+      "latitude": -34.9098180575968,
+      "longitude": -56.1334895127784
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_32",
+    "storeName": "Pellegrin Gourmet",
+    "address": "Gral. Gregorio Suárez 2734",
+    "point": {
+      "latitude": -34.9184852980059,
+      "longitude": -56.1598512630709
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_33",
+    "storeName": "Jacinto",
+    "address": "Sarandí 349",
+    "point": {
+      "latitude": -34.908168516396,
+      "longitude": -56.208010318044
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_34",
+    "storeName": "Francis",
+    "address": "Luis de la Torre 502",
+    "point": {
+      "latitude": -34.9192278287397,
+      "longitude": -56.1599464180435
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_35",
+    "storeName": "Pizzería Rosa",
+    "address": "Prudencio Vazquez y Vega 1039",
+    "point": {
+      "latitude": -34.9117353043475,
+      "longitude": -56.1617822545639
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_36",
+    "storeName": "Negroni",
+    "address": "Guipúzcoa 352",
+    "point": {
+      "latitude": -34.9248474945164,
+      "longitude": -56.1567641495035
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_37",
+    "storeName": "La Vaca",
+    "address": "Blvr. 26 de Marzo 3572",
+    "point": {
+      "latitude": -34.9055506561846,
+      "longitude": -56.1351211750797
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_38",
+    "storeName": "Plantado Restaurant",
+    "address": "Rbla. República del Perú 1479",
+    "point": {
+      "latitude": -34.9095421956398,
+      "longitude": -56.138452716195
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_39",
+    "storeName": "Cafetería Deli",
+    "address": "Rbla. República del Perú 1479",
+    "point": {
+      "latitude": -34.909720663835,
+      "longitude": -56.1386266332221
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_40",
+    "storeName": "Moderno Bar",
+    "address": "Rbla. República del Perú 1479",
+    "point": {
+      "latitude": -34.9097587746824,
+      "longitude": -56.1383618657746
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_41",
+    "storeName": "Mercado Arocena",
+    "address": "Av. Alfredo Arocena 1806",
+    "point": {
+      "latitude": -34.8840948784611,
+      "longitude": -56.0593136047969
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_42",
+    "storeName": "Mercado de los horneros",
+    "address": "Cam. de Los Horneros s/n, 15800 Ciudad de la Costa",
+    "point": {
+      "latitude": -34.8167043061424,
+      "longitude": -55.9814790170909
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_43",
+    "storeName": "Tostado Café Club",
+    "address": "Av. Luis Alberto de Herrera 1264",
+    "point": {
+      "latitude": -34.9035580906662,
+      "longitude": -56.1369941296882
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_44",
+    "storeName": "Bar Tabaré",
+    "address": "José Luis Zorrilla de San Martín 154",
+    "point": {
+      "latitude": -34.9268088981839,
+      "longitude": -56.159835513734
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_45",
+    "storeName": "Don Peperone",
+    "address": "Av. Luis Alberto de Herrera 1290",
+    "point": {
+      "latitude": -34.9038650236247,
+      "longitude": -56.1371909681251
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_46",
+    "storeName": "Don Peperone",
+    "address": "José Ellauri 350",
+    "point": {
+      "latitude": -34.9228254545464,
+      "longitude": -56.1596088621358
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_47",
+    "storeName": "Fellini",
+    "address": "José Martí 3408",
+    "point": {
+      "latitude": -34.9133024194195,
+      "longitude": -56.1483796039267
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  },
+  {
+    "id": "scotia_excel_48",
+    "storeName": "Cultural Alfabeta",
+    "address": "Miguel Barreiro 3231",
+    "point": {
+      "latitude": -34.9087990229257,
+      "longitude": -56.1466778691479
+    },
+    "bank": "scotia",
+    "category": "gastronomia",
+    "discountPercentage": 25,
+    "description": "25% de ahorro con tarjetas Tipo 2."
+  }
+]

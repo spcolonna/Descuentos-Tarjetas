@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'screens/discount_finder_screen.dart';
 
-import 'package:matchhouse_flutter/screens/WelcomeScreen.dart';
-
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  MobileAds.instance.initialize();
   runApp(const MyApp());
 }
 
@@ -18,13 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'App de Bienvenida',
-      debugShowCheckedModeBanner: false,
+      title: 'Descuentos App',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        useMaterial3: true,
+        primarySwatch: Colors.teal,
       ),
-      home: const WelcomeScreen(),
+      home: const DiscountFinderScreen(),
     );
   }
 }
