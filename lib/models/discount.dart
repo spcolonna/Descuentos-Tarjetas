@@ -39,10 +39,8 @@ class Discount {
 
     final pointData = json['point'] as Map<String, dynamic>? ?? {'latitude': 0.0, 'longitude': 0.0};
 
-    // MODIFICADO: Leemos la lista "discounts" del JSON
     var discountList = <DiscountTier>[];
     if (json['discounts'] != null && json['discounts'] is List) {
-      // Si existe la lista, la mapeamos creando un objeto DiscountTier por cada item
       discountList = (json['discounts'] as List)
           .map((tierJson) => DiscountTier.fromJson(tierJson))
           .toList();

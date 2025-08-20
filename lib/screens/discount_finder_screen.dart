@@ -182,25 +182,26 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
   void _applyFilters() {
     List<Discount> filtered = _allDiscounts;
-
     if (_selectedBank != null) {
       filtered = filtered.where((d) => d.bank == _selectedBank).toList();
     }
     if (_selectedCategory != null) {
       filtered = filtered.where((d) => d.category == _selectedCategory).toList();
     }
-    if (_minDiscountValue > 0) {
-      filtered = filtered.where((discount) {
-        return discount.discounts.any((tier) => tier.value >= _minDiscountValue);
-      }).toList();
-    }
+
+    filtered = filtered.where((discount) {
+      return discount.discounts.any((tier) {
+        final bool tierMatches = _selectedCardTier == null || tier.tier == _selectedCardTier;
+        final bool valueMatches = tier.value >= _minDiscountValue;
+        return tierMatches && valueMatches;
+      });
+    }).toList();
 
     setState(() {
       _filteredDiscounts = filtered;
     });
   }
 
-  // --- CONSTRUCCIÓN DE LA INTERFAZ ---
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -223,86 +224,84 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   }
 
   Widget _buildBody() {
-    if (_isLoading) {
-      return const Center(child: CircularProgressIndicator());
-    }
-    if (_errorMessage != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Text(_errorMessage!, textAlign: TextAlign.center),
-        ),
-      );
-    }
+    if (_isLoading) return const Center(child: CircularProgressIndicator());
+    if (_errorMessage != null) return Center(child: Text(_errorMessage!));
 
-    return Stack(
+    return Column(
       children: [
-        Column(
-          children: [
-            Expanded(
-              child: FlutterMap(
-                mapController: _mapController, // Controlador asignado
+        Expanded(
+          child: Stack(
+            children: [
+              FlutterMap(
+                mapController: _mapController,
                 options: MapOptions(
                   initialCenter: _currentPosition!,
-                  initialZoom: 14.0,
-                  minZoom: 4,  // Zoom mínimo
-                  maxZoom: 18, // Zoom máximo
+                  initialZoom: 13.0,
                 ),
                 children: [
-                  TileLayer(
-                    urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                  ),
+                  TileLayer(urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'),
                   MarkerLayer(markers: _buildMarkers()),
                 ],
               ),
-            ),
-            _buildFilterPanel(),
-          ],
-        ),
-
-        // --- WIDGETS DE ZOOM MANUALES ---
-        SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.only(right: 10.0, top: 10.0),
-            child: Align(
-              alignment: Alignment.topRight,
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  // BOTÓN DE ACERCAR (+)
-                  FloatingActionButton(
-                    mini: true,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    heroTag: "zoom-in-btn", // Tag único para el botón
-                    onPressed: () {
-                      // Llama al controlador para aumentar el zoom
-                      final newZoom = _mapController.camera.zoom + 1;
-                      _mapController.move(_mapController.camera.center, newZoom);
-                    },
-                    child: const Icon(Icons.add),
+              SafeArea(
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 10.0, top: 10.0),
+                  child: Align(
+                    alignment: Alignment.topRight,
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        FloatingActionButton(
+                          mini: true, heroTag: "zoom-in-btn",
+                          onPressed: () { _mapController.move(_mapController.camera.center, _mapController.camera.zoom + 1); },
+                          child: const Icon(Icons.add),
+                        ),
+                        const SizedBox(height: 8),
+                        FloatingActionButton(
+                          mini: true, heroTag: "zoom-out-btn",
+                          onPressed: () { _mapController.move(_mapController.camera.center, _mapController.camera.zoom - 1); },
+                          child: const Icon(Icons.remove),
+                        ),
+                      ],
+                    ),
                   ),
-                  const SizedBox(height: 8),
-                  // BOTÓN DE ALEJAR (-)
-                  FloatingActionButton(
-                    mini: true,
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.black,
-                    heroTag: "zoom-out-btn", // Tag único para el botón
-                    onPressed: () {
-                      // Llama al controlador para disminuir el zoom
-                      final newZoom = _mapController.camera.zoom - 1;
-                      _mapController.move(_mapController.camera.center, newZoom);
-                    },
-                    child: const Icon(Icons.remove),
-                  ),
-                ],
+                ),
               ),
+            ],
+          ),
+        ),
+        _buildFilterPanel(),
+      ],
+    );
+  }
+
+  List<Marker> _buildMarkers() {
+    final List<Marker> markers = [];
+    if (_currentPosition != null) {
+      markers.add(Marker(point: _currentPosition!, child: const Icon(Icons.person_pin_circle, color: Colors.blue, size: 50)));
+    }
+    for (final discount in _filteredDiscounts) {
+      markers.add(
+        Marker(
+          width: 40, height: 40,
+          point: discount.point,
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+                builder: (context) => DiscountInfoBottomSheet(discount: discount),
+              );
+            },
+            child: DiscountMapMarker(
+              discount: discount,
+              selectedCardTier: _selectedCardTier,
             ),
           ),
         ),
-      ],
-    );
+      );
+    }
+    return markers;
   }
 
   Widget _buildFilterPanel() {
@@ -337,43 +336,6 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
         ],
       ),
     );
-  }
-
-  List<Marker> _buildMarkers() {
-    final List<Marker> markers = [];
-    if (_currentPosition != null) {
-      markers.add(
-        Marker(
-          point: _currentPosition!,
-          width: 80,
-          height: 80,
-          child: const Icon(Icons.person_pin_circle, color: Colors.blue, size: 50),
-        ),
-      );
-    }
-
-    for (final discount in _filteredDiscounts) {
-      markers.add(
-        Marker(
-          width: 40,
-          height: 40,
-          point: discount.point,
-          child: GestureDetector(
-            onTap: () {
-              showModalBottomSheet(
-                context: context,
-                shape: const RoundedRectangleBorder(
-                  borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-                ),
-                builder: (context) => DiscountInfoBottomSheet(discount: discount),
-              );
-            },
-            child: DiscountMapMarker(discount: discount),
-          ),
-        ),
-      );
-    }
-    return markers;
   }
 
   Widget _buildBankFilter() {
@@ -439,7 +401,7 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
           value: _minDiscountValue,
           min: 0,
           max: 50,
-          divisions: 5,
+          divisions: 10,
           label: "${_minDiscountValue.toInt()}%",
           onChanged: (double value) {
             setState(() { _minDiscountValue = value; });
