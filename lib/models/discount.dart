@@ -2,6 +2,7 @@ import 'package:latlong2/latlong.dart';
 
 import '../enums/Bank.dart';
 import '../enums/CategoryDiscount.dart';
+import 'DiscountTier.dart';
 
 class Discount {
   final String id;
@@ -10,8 +11,7 @@ class Discount {
   final LatLng point;
   final Bank bank;
   final CategoryDiscount category;
-  final int discountPercentage;
-  final String description;
+  final List<DiscountTier> discounts;
 
   Discount({
     required this.id,
@@ -20,27 +20,33 @@ class Discount {
     required this.point,
     required this.bank,
     required this.category,
-    required this.discountPercentage,
-    required this.description,
+    required this.discounts,
   });
 
-  // El constructor 'fromJson' es el que "traduce" el JSON a un objeto Discount.
   factory Discount.fromJson(Map<String, dynamic> json) {
+    final bankString = (json['bank'] as String? ?? '').toLowerCase();
+    final bank = Bank.values.firstWhere((b) => b.name == bankString, orElse: () => Bank.itau);
 
-    final bankString = (json['bank'] as String? ?? 'itau').toLowerCase();
-    final bank = Bank.values.firstWhere(
-          (b) => b.name == bankString,
-      orElse: () => Bank.itau,
-    );
-
-    // Hacemos lo mismo para la categoría
-    final categoryString = (json['category'] as String? ?? 'otro').toLowerCase();
-    final category = CategoryDiscount.values.firstWhere(
-          (c) => c.name == categoryString,
-      orElse: () => CategoryDiscount.otro,
-    );
+    final categoryString = (json['category'] as String? ?? '').toLowerCase();
+    CategoryDiscount category;
+    if (categoryString == 'gastronomía' || categoryString == 'gastronomia') {
+      category = CategoryDiscount.gastronomia;
+    } else if (categoryString == 'librerías' || categoryString == 'librerias' || categoryString == 'libreria') {
+      category = CategoryDiscount.librerias;
+    } else {
+      category = CategoryDiscount.otro;
+    }
 
     final pointData = json['point'] as Map<String, dynamic>? ?? {'latitude': 0.0, 'longitude': 0.0};
+
+    // MODIFICADO: Leemos la lista "discounts" del JSON
+    var discountList = <DiscountTier>[];
+    if (json['discounts'] != null && json['discounts'] is List) {
+      // Si existe la lista, la mapeamos creando un objeto DiscountTier por cada item
+      discountList = (json['discounts'] as List)
+          .map((tierJson) => DiscountTier.fromJson(tierJson))
+          .toList();
+    }
 
     return Discount(
       id: json['id'],
@@ -49,8 +55,7 @@ class Discount {
       point: LatLng(pointData['latitude'], pointData['longitude']),
       bank: bank,
       category: category,
-      discountPercentage: json['discountPercentage'],
-      description: json['description'],
+      discounts: discountList, // Asignamos la lista de descuentos
     );
   }
 }

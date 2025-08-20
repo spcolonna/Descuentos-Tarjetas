@@ -188,7 +188,9 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
       filtered = filtered.where((d) => d.category == _selectedCategory).toList();
     }
     if (_minDiscountValue > 0) {
-      filtered = filtered.where((d) => d.discountPercentage >= _minDiscountValue).toList();
+      filtered = filtered.where((discount) {
+        return discount.discounts.any((tier) => tier.value >= _minDiscountValue);
+      }).toList();
     }
 
     setState(() {
