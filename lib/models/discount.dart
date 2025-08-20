@@ -7,7 +7,7 @@ enum Bank { itau, scotia, brou, bbva }
 // NOTA: Los valores del Excel para categoría eran "Gastronomía".
 // Para que coincida, lo ponemos con mayúscula aquí, o lo manejamos en el parser.
 // Lo manejaremos en el parser para mayor robustez.
-enum CategoryDiscount { gastronomia, indumentaria, supermercado, otro }
+enum CategoryDiscount { gastronomia, librerias, otro }
 
 class Discount {
   final String id;

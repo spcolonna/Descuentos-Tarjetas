@@ -161,7 +161,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Image.asset(
-                  'assets/logo/NidoLogo.jpeg',
+                  'assets/logo/Logo.png',
                   height: 120,
                 ),
                 const SizedBox(height: 16),

@@ -328,9 +328,16 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
                     setState(() { _selectedBank = newValue; });
                     _applyFilters();
                   },
-                  items: Bank.values.map((Bank bank) {
-                    return DropdownMenuItem<Bank>(value: bank, child: Text(bank.name.toUpperCase()));
-                  }).toList(),
+                  items: [
+                    const DropdownMenuItem<Bank>(
+                      value: null,
+                      child: Text("Todos"),
+                    ),
+                    // Usamos "..." para añadir todos los items del enum
+                    ...Bank.values.map((Bank bank) {
+                      return DropdownMenuItem<Bank>(value: bank, child: Text(bank.name.toUpperCase()));
+                    }),
+                  ],
                 ),
               ),
               const SizedBox(width: 16),
@@ -343,9 +350,20 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
                     setState(() { _selectedCategory = newValue; });
                     _applyFilters();
                   },
-                  items: CategoryDiscount.values.map((CategoryDiscount cat) {
-                    return DropdownMenuItem<CategoryDiscount>(value: cat, child: Text(cat.name));
-                  }).toList(),
+                  items: [
+                    const DropdownMenuItem<CategoryDiscount>(
+                      value: null,
+                      child: Text("Todas"),
+                    ),
+                    // Usamos "..." para añadir todos los items del enum
+                    ...CategoryDiscount.values.map((CategoryDiscount cat) {
+                      String categoryName = cat.name[0].toUpperCase() + cat.name.substring(1);
+                      return DropdownMenuItem<CategoryDiscount>(
+                        value: cat,
+                        child: Text(categoryName),
+                      );
+                    }),
+                  ],
                 ),
               ),
             ],

@@ -111,4 +111,4 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/logo/NidoLogo.jpeg"
+  image_path: "assets/logo/Logo.png"
