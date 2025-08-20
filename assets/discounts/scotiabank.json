@@ -13,11 +13,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -36,11 +38,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -59,11 +63,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -82,11 +88,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -105,11 +113,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -128,11 +138,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -151,11 +163,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -174,11 +188,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -197,11 +213,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -220,11 +238,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -243,11 +263,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -266,11 +288,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -289,11 +313,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -312,11 +338,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -335,11 +363,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -358,11 +388,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -381,11 +413,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -404,11 +438,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -463,11 +499,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -486,11 +524,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -509,11 +549,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -532,11 +574,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -555,11 +599,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -578,11 +624,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -601,11 +649,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -624,11 +674,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -647,11 +699,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -670,11 +724,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -693,11 +749,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -716,11 +774,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -739,11 +799,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -762,11 +824,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -785,11 +849,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -808,11 +874,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -831,11 +899,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -854,11 +924,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -877,11 +949,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -900,11 +974,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -923,11 +999,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -946,11 +1024,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -969,11 +1049,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -992,11 +1074,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1015,11 +1099,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1038,11 +1124,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1061,11 +1149,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1084,11 +1174,13 @@
       {
         "cardType": "Tarjetas de Débito y Crédito",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier":  "premium",
         "description": "25% de ahorro."
       }
     ]

@@ -1,0 +1,1 @@
+enum CardTier { basic, premium }

@@ -9,6 +9,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:location/location.dart';
 
 import '../enums/Bank.dart';
+import '../enums/CardTier.dart';
 import '../enums/CategoryDiscount.dart';
 import '../models/discount.dart';
 import '../services/json_discount_service.dart';
@@ -35,6 +36,7 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
   Bank? _selectedBank;
   CategoryDiscount? _selectedCategory;
+  CardTier? _selectedCardTier;
   double _minDiscountValue = 0;
 
   BannerAd? _bannerAd;
@@ -220,8 +222,6 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
     );
   }
 
-  // En la clase _DiscountFinderScreenState
-
   Widget _buildBody() {
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator());
@@ -325,70 +325,15 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
         children: [
           Row(
             children: [
-              Expanded(
-                child: DropdownButton<Bank>(
-                  isExpanded: true,
-                  value: _selectedBank,
-                  hint: const Text("Banco"),
-                  onChanged: (Bank? newValue) {
-                    setState(() { _selectedBank = newValue; });
-                    _applyFilters();
-                  },
-                  items: [
-                    const DropdownMenuItem<Bank>(
-                      value: null,
-                      child: Text("Todos"),
-                    ),
-                    // Usamos "..." para añadir todos los items del enum
-                    ...Bank.values.map((Bank bank) {
-                      return DropdownMenuItem<Bank>(value: bank, child: Text(bank.name.toUpperCase()));
-                    }),
-                  ],
-                ),
-              ),
-              const SizedBox(width: 16),
-              Expanded(
-                child: DropdownButton<CategoryDiscount>(
-                  isExpanded: true,
-                  value: _selectedCategory,
-                  hint: const Text("Categoría"),
-                  onChanged: (CategoryDiscount? newValue) {
-                    setState(() { _selectedCategory = newValue; });
-                    _applyFilters();
-                  },
-                  items: [
-                    const DropdownMenuItem<CategoryDiscount>(
-                      value: null,
-                      child: Text("Todas"),
-                    ),
-                    // Usamos "..." para añadir todos los items del enum
-                    ...CategoryDiscount.values.map((CategoryDiscount cat) {
-                      String categoryName = cat.name[0].toUpperCase() + cat.name.substring(1);
-                      return DropdownMenuItem<CategoryDiscount>(
-                        value: cat,
-                        child: Text(categoryName),
-                      );
-                    }),
-                  ],
-                ),
-              ),
+              Expanded(child: _buildBankFilter()),
+              const SizedBox(width: 12),
+              Expanded(child: _buildCategoryFilter()),
             ],
           ),
           const SizedBox(height: 8),
-          Text("Descuento mínimo: ${_minDiscountValue.toInt()}%"),
-          Slider(
-            value: _minDiscountValue,
-            min: 0,
-            max: 50,
-            divisions: 5,
-            label: "${_minDiscountValue.toInt()}%",
-            onChanged: (double value) {
-              setState(() { _minDiscountValue = value; });
-            },
-            onChangeEnd: (double value) {
-              _applyFilters();
-            },
-          ),
+          _buildCardTierFilter(),
+          const SizedBox(height: 8),
+          _buildDiscountSlider(),
         ],
       ),
     );
@@ -429,5 +374,81 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
       );
     }
     return markers;
+  }
+
+  Widget _buildBankFilter() {
+    return DropdownButton<Bank?>(
+      isExpanded: true,
+      value: _selectedBank,
+      hint: const Text("Todos los Bancos"),
+      onChanged: (Bank? newValue) {
+        setState(() { _selectedBank = newValue; });
+        _applyFilters();
+      },
+      items: [
+        const DropdownMenuItem<Bank?>(value: null, child: Text("Todos los Bancos")),
+        ...Bank.values.map((bank) {
+          String bankName = bank.name[0].toUpperCase() + bank.name.substring(1);
+          return DropdownMenuItem<Bank>(value: bank, child: Text(bankName));
+        }).toList(),
+      ],
+    );
+  }
+
+  Widget _buildCategoryFilter() {
+    return DropdownButton<CategoryDiscount?>(
+      isExpanded: true,
+      value: _selectedCategory,
+      hint: const Text("Categoría"),
+      onChanged: (CategoryDiscount? newValue) {
+        setState(() { _selectedCategory = newValue; });
+        _applyFilters();
+      },
+      items: const [
+        DropdownMenuItem<CategoryDiscount?>(value: null, child: Text("Todas")),
+        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.gastronomia, child: Text("Gastronomía")),
+        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.librerias, child: Text("Librería")),
+        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.otro, child: Text("Otros")),
+      ],
+    );
+  }
+
+// MÉTODO NUEVO PARA EL FILTRO DE TIPO DE TARJETA
+  Widget _buildCardTierFilter() {
+    return DropdownButton<CardTier?>(
+      isExpanded: true,
+      value: _selectedCardTier,
+      hint: const Text("Todo tipo de Tarjeta"),
+      onChanged: (CardTier? newValue) {
+        setState(() { _selectedCardTier = newValue; });
+        _applyFilters();
+      },
+      items: const [
+        DropdownMenuItem<CardTier?>(value: null, child: Text("Todas (Común y Premium)")),
+        DropdownMenuItem<CardTier?>(value: CardTier.basic, child: Text("Común")),
+        DropdownMenuItem<CardTier?>(value: CardTier.premium, child: Text("Premium")),
+      ],
+    );
+  }
+
+  Widget _buildDiscountSlider() {
+    return Column(
+      children: [
+        Text("Descuento mínimo: ${_minDiscountValue.toInt()}%"),
+        Slider(
+          value: _minDiscountValue,
+          min: 0,
+          max: 50,
+          divisions: 5,
+          label: "${_minDiscountValue.toInt()}%",
+          onChanged: (double value) {
+            setState(() { _minDiscountValue = value; });
+          },
+          onChangeEnd: (double value) {
+            _applyFilters();
+          },
+        ),
+      ],
+    );
   }
 }

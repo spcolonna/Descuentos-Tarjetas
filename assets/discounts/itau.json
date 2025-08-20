@@ -13,11 +13,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -36,11 +38,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -59,11 +63,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -82,11 +88,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -105,11 +113,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -128,11 +138,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -151,11 +163,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -174,11 +188,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -197,11 +213,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -220,11 +238,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -243,11 +263,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -266,11 +288,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -289,11 +313,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -312,11 +338,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -335,11 +363,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -358,11 +388,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -381,11 +413,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -404,11 +438,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -427,11 +463,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -450,11 +488,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -473,11 +513,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -496,11 +538,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -519,11 +563,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -542,11 +588,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -565,11 +613,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -588,11 +638,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -611,11 +663,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -634,11 +688,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -657,11 +713,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -680,11 +738,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -703,11 +763,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -726,11 +788,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -749,11 +813,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -772,11 +838,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -795,11 +863,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -818,11 +888,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -841,11 +913,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -864,11 +938,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -887,11 +963,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -910,11 +988,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -933,11 +1013,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -956,11 +1038,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -979,11 +1063,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1002,11 +1088,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1025,11 +1113,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1048,11 +1138,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1071,11 +1163,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1094,11 +1188,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1117,11 +1213,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1140,11 +1238,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1163,11 +1263,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1186,11 +1288,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1209,11 +1313,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1232,11 +1338,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1255,11 +1363,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1278,11 +1388,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1301,11 +1413,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1324,11 +1438,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1347,11 +1463,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1370,11 +1488,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
@@ -1393,11 +1513,13 @@
       {
         "cardType": "Débito y Crédito Común",
         "value": 15,
+        "tier": "basic",
         "description": "15% de ahorro."
       },
       {
         "cardType": "Tarjetas Premium",
         "value": 25,
+        "tier": "premium",
         "description": "25% de ahorro."
       }
     ]
