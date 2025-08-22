@@ -1,13 +1,1452 @@
 [
   {
-    "id": "bbva1",
-    "storeName": "Cine del Sol",
-    "address": "Av. de las Américas 7890, Montevideo",
-    "latitude": -34.8836,
-    "longitude": -56.0505,
+    "id": "bbva_1",
+    "storeName": "Meat Deli",
+    "address": "Av. Alfredo Arocena 1561",
+    "point": {
+      "latitude": -34.88996616571237,
+      "longitude": -56.056719802702254
+    },
     "bank": "bbva",
-    "category": "otro",
-    "discountPercentage": 50,
-    "description": "2x1 en entradas de cine todos los jueves con tarjetas de crédito BBVA."
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier": "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_2",
+    "storeName": "Chelato",
+    "address": "Av. Luis Alberto de Herrera 3365",
+    "point": {
+      "latitude": -34.86899282113311,
+      "longitude": -56.17003848920983
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_2_1",
+    "storeName": "Chelato",
+    "address": "Jose L Terra 2220",
+    "point": {
+      "latitude": -34.88669925836569,
+      "longitude": -56.18340198920913
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_3",
+    "storeName": "Kakao Chocolates",
+    "address": "Ingeniero Garcia de Zuñiga 2368",
+    "point": {
+      "latitude": -34.91836111875147,
+      "longitude": -56.161757789207854
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_4",
+    "storeName": "Heladería La Nueva Roma",
+    "address": "Vilardebó 1579",
+    "point": {
+      "latitude": -34.87657495151548,
+      "longitude": -56.184589902702854
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_4_1",
+    "storeName": "Heladería La Nueva Roma",
+    "address": "Bulevar España 2730",
+    "point": {
+      "latitude": -34.913769012602984,
+      "longitude": -56.154561631537184
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_4_2",
+    "storeName": "Heladería La Nueva Roma",
+    "address": "Estanislao Lopez 4544",
+    "point": {
+      "latitude": -34.887815564254446,
+      "longitude": -56.111120345031175
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_4_3",
+    "storeName": "Heladería La Nueva Roma",
+    "address": "San José 940",
+    "point": {
+      "latitude": -34.90561943961176,
+      "longitude": -56.19556252706152
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_5",
+    "storeName": "Helados Zero",
+    "address": "Blvr. 26 de Marzo 1325",
+    "point": {
+      "latitude": -34.90786710439243,
+      "longitude": -56.14690168735933
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_6",
+    "storeName": "Tu Rincón de Dulces",
+    "address": "Santiago de Chile 1015",
+    "point": {
+      "latitude": -34.911517175012094,
+      "longitude": -56.18496231708786
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_7",
+    "storeName": "Bonus Gluten Free",
+    "address": "Santiago de Chile 1015",
+    "point": {
+      "latitude": -34.9077212414711,
+      "longitude": -56.1358004336325
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_8",
+    "storeName": "COCCOLE",
+    "address": "Santiago de Chile 1015",
+    "point": {
+      "latitude": -34.91153787718904,
+      "longitude": -56.18496059576005
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_9",
+    "storeName": "Café Suárez",
+    "address": "Av. Joaquín Suárez 3724",
+    "point": {
+      "latitude": -34.86005713129021,
+      "longitude": -56.19623985416279
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_10",
+    "storeName": "Alma Berro",
+    "address": "Francisco Pedro Berro 1002",
+    "point": {
+      "latitude": -34.91262466381526,
+      "longitude": -56.1516903711644
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_11",
+    "storeName": "Casa Fauno",
+    "address": "Dr. Luis Piera 2031",
+    "point": {
+      "latitude": -34.9130649679136,
+      "longitude": -56.17070574556321
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_12",
+    "storeName": "Contigo Sueño Café",
+    "address": "Av. Dr. Juan Bautista Alberdi 6046",
+    "point": {
+      "latitude": -34.8844671565521,
+      "longitude": -56.07831992880431
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_13",
+    "storeName": "Amado Sugar",
+    "address": "Solano Garcia 2455",
+    "point": {
+      "latitude": -34.922199833275116,
+      "longitude": -56.16027601392188
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_14",
+    "storeName": "Nagasaki",
+    "address": "Bv. Artigas 473",
+    "point": {
+      "latitude": -34.91983741570885,
+      "longitude": -56.16249793153705
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_14_1",
+    "storeName": "Nagasaki",
+    "address": "Cdad. de París 6250",
+    "point": {
+      "latitude": -34.89278641047654,
+      "longitude": -56.06869661080089
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_15",
+    "storeName": "A la Par",
+    "address": "Paralela Al Sur esq. Av. Dr. Horacio García Lagos",
+    "point": {
+      "latitude": -34.82035255035222,
+      "longitude": -55.954794733955715
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_15_1",
+    "storeName": "A la Par",
+    "address": "Av. Pérez Butler esq. Sta. Rosa",
+    "point": {
+      "latitude": -34.80472442057907,
+      "longitude": -55.90415322171745
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_16",
+    "storeName": "Tropical Smoothies",
+    "address": "Buenos Aires 614",
+    "point": {
+      "latitude": -34.90771181322135,
+      "longitude": -56.202298037129594
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_16_1",
+    "storeName": "Tropical Smoothies",
+    "address": "San José 950",
+    "point": {
+      "latitude": -34.906822813143854,
+      "longitude": -56.1958511
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_16_2",
+    "storeName": "Tropical Smoothies",
+    "address": "Vázquez 1400",
+    "point": {
+      "latitude": -34.904625273025,
+      "longitude": -56.183215750622836
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_16_3",
+    "storeName": "Tropical Smoothies",
+    "address": "Ellauri 350 Local MG6",
+    "point": {
+      "latitude": -34.92459766572396,
+      "longitude": -56.158546400000006
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_16_4",
+    "storeName": "Tropical Smoothies",
+    "address": "Av. Italia 5775 Local 102",
+    "point": {
+      "latitude": -34.88100817594331,
+      "longitude": -56.08121398465764
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_17",
+    "storeName": "Green To Go",
+    "address": "25 de Mayo 599",
+    "point": {
+      "latitude": -34.90354772444913,
+      "longitude": -56.20404857843718
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_17_1",
+    "storeName": "Green To Go",
+    "address": "Roque Graseras 746 Bis",
+    "point": {
+      "latitude": -34.91635826132862,
+      "longitude": -56.15166077843717
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_18",
+    "storeName": "Simple y Natural",
+    "address": "iguel Barreiro 3254",
+    "point": {
+      "latitude": -34.90920923875659,
+      "longitude": -56.14660031349322
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_19",
+    "storeName": "Romani",
+    "address": "Claudio Williman 579",
+    "point": {
+      "latitude": -34.91724483999629,
+      "longitude": -56.15993090829401
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_20",
+    "storeName": "El Otro Es Mercat",
+    "address": "Perez Castellano 1526",
+    "point": {
+      "latitude": -34.90634408999953,
+      "longitude": -56.21106238796877
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_21",
+    "storeName": "Es Mercat",
+    "address": "Colón 1550",
+    "point": {
+      "latitude": -34.90555030115496,
+      "longitude": -56.21017528220892
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_22",
+    "storeName": "Del Abuelo",
+    "address": "Orinoco 5052 esq Michigan",
+    "point": {
+      "latitude": -34.894747253253314,
+      "longitude": -56.09946044943912
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_22_1",
+    "storeName": "Del Abuelo",
+    "address": "Maldonado 1870 esq Frugoni",
+    "point": {
+      "latitude": -34.907899954247284,
+      "longitude": -56.17468999894005
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_23",
+    "storeName": "Figari Bistró",
+    "address": "Blanca del Tabare 2903",
+    "point": {
+      "latitude": -34.92025249352753,
+      "longitude": -56.15657405773956
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_24",
+    "storeName": "Tepache Cocina",
+    "address": "Ramón Masini 2950",
+    "point": {
+      "latitude": -34.905749871807885,
+      "longitude": -56.153906682293645
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_25",
+    "storeName": "Congelados Marmatu",
+    "address": "Haya de la torre 1809",
+    "point": {
+      "latitude": -34.888037454171,
+      "longitude": -56.10545164547211
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 15,
+        "tier":  "premium",
+        "description": "15% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_26",
+    "storeName": "Emporio de los Sándwiches",
+    "address": "Rondeau 1480",
+    "point": {
+      "latitude": -34.903395289985326,
+      "longitude": -56.191525183257255
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 20,
+        "tier":  "premium",
+        "description": "20% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_26_1",
+    "storeName": "Emporio de los Sándwiches",
+    "address": "Shopping Tres Cruces",
+    "point": {
+      "latitude": -34.89372030120142,
+      "longitude": -56.16662481993811
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 20,
+        "tier":  "premium",
+        "description": "20% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_27",
+    "storeName": "Bodeguita de Carnes",
+    "address": "Mariano Uriarte 6294",
+    "point": {
+      "latitude": -34.88519138254558,
+      "longitude": -56.069933628835585
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_28",
+    "storeName": "Porterhouse",
+    "address": "José Ellauri 842",
+    "point": {
+      "latitude": -34.91520503187129,
+      "longitude": -56.153724286506765
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_29",
+    "storeName": "Grido",
+    "address": "Av. Rivera 4240",
+    "point": {
+      "latitude": -34.89608997883541,
+      "longitude": -56.12186331804464
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_29_1",
+    "storeName": "Grido",
+    "address": "Av Rivera 3428",
+    "point": {
+      "latitude": -34.90189769683778,
+      "longitude": -56.14050862513314
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_29_2",
+    "storeName": "Grido",
+    "address": "Avda Brasil 2488 esq Simón Bolívar",
+    "point": {
+      "latitude": -34.90706104155643,
+      "longitude": -56.16026129912564
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 30,
+        "tier": "basic",
+        "description": "30% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 50,
+        "tier":  "premium",
+        "description": "50% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_30",
+    "storeName": "Hoy cocina la abuela",
+    "address": "osé L.Terra 2220",
+    "point": {
+      "latitude": -34.886495881214216,
+      "longitude": -56.183556357671186
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_31",
+    "storeName": "Carnicería Beef House",
+    "address": "Chucarro 1210",
+    "point": {
+      "latitude": -34.90421079131175,
+      "longitude": -56.14711251374868
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_32",
+    "storeName": "La Estacada",
+    "address": "Camino aI faro s/n, Punta Carretas",
+    "point": {
+      "latitude": -34.93285100005213,
+      "longitude": -56.1612656372766
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_33",
+    "storeName": "Cantegrill",
+    "address": "Claudio Williman 528",
+    "point": {
+      "latitude": -34.91801173860093,
+      "longitude": -56.16062590000001
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_34",
+    "storeName": "Sushi Go",
+    "address": "26 de marzo 1236 esq G Pereira",
+    "point": {
+      "latitude": -34.90921713357797,
+      "longitude": -56.14840411349322
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_34_1",
+    "storeName": "Sushi Go",
+    "address": "Río Negro 1459",
+    "point": {
+      "latitude": -34.90382301425807,
+      "longitude": -56.193984915342355
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_35",
+    "storeName": "Miyagi Sushi",
+    "address": "Gabriel A. Pereira 3138",
+    "point": {
+      "latitude": -34.902881715726785,
+      "longitude": -56.15074661502525
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_35_1",
+    "storeName": "Miyagi Sushi",
+    "address": "Ciudad de París 6250",
+    "point": {
+      "latitude": -34.887675694866466,
+      "longitude": -56.066289221261314
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_36",
+    "storeName": "Amélie Bar & Bistró",
+    "address": "21 de Setiembre 2783",
+    "point": {
+      "latitude": -34.91780132505361,
+      "longitude": -56.15683053068472
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_37",
+    "storeName": "Puesta del Sol",
+    "address": "Rambla Wilson s/n entre Julio María Sosa y Cachon",
+    "point": {
+      "latitude": -34.92010456343842,
+      "longitude": -56.17213404157834
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_38",
+    "storeName": "Parillada La Chacra del Puerto",
+    "address": "Mercado del Puerto local 037",
+    "point": {
+      "latitude": -34.905486029779894,
+      "longitude": -56.21177050034816
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_39",
+    "storeName": "Cabaña Verónica",
+    "address": "Mercado del Puerto local 038",
+    "point": {
+      "latitude": -34.90549053112584,
+      "longitude": -56.21190995767118
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_40",
+    "storeName": "La Nueva Parrilla",
+    "address": "Santiago Vázquez 1251",
+    "point": {
+      "latitude": -34.90789652764106,
+      "longitude": -56.15047762883559
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "bbva_41",
+    "storeName": "Casa Flo",
+    "address": "Costa Rica 1685",
+    "point": {
+      "latitude": -34.885891983317485,
+      "longitude": -56.05690481534235
+    },
+    "bank": "bbva",
+    "category": "gastronomia",
+    "discounts": [
+      {
+        "cardType": "Tarjetas de Débito y Crédito",
+        "value": 20,
+        "tier": "basic",
+        "description": "20% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 30,
+        "tier":  "premium",
+        "description": "30% de ahorro."
+      }
+    ]
   }
 ]
