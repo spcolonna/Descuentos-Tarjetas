@@ -1,0 +1,952 @@
+[
+  {
+    "id": "itau_moda_1",
+    "storeName": "Amadeus",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_2",
+    "storeName": "Amén",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_3",
+    "storeName": "anthea",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_4",
+    "storeName": "Brixton",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_5",
+    "storeName": "By—Florencia",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_6",
+    "storeName": "Capri",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_7",
+    "storeName": "Damen",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_8",
+    "storeName": "Denali",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_9",
+    "storeName": "Don Baez",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_10",
+    "storeName": "El Beso",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_11",
+    "storeName": "Ferrero",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_12",
+    "storeName": "Jibona",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_13",
+    "storeName": "Kevingston",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_14",
+    "storeName": "La Boutique Paris",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_15",
+    "storeName": "Lanka",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_16",
+    "storeName": "Magnolia",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_17",
+    "storeName": "Mandinga",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_18",
+    "storeName": "Marimba",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_19",
+    "storeName": "Maura",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_20",
+    "storeName": "Oklo",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_21",
+    "storeName": "Óptica Nova",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_22",
+    "storeName": "Panthai",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_23",
+    "storeName": "Paulista",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_24",
+    "storeName": "Perpetua",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_25",
+    "storeName": "Petra",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_26",
+    "storeName": "Petrichor",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_27",
+    "storeName": "Pura Lana",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_28",
+    "storeName": "Puropunto",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_29",
+    "storeName": "Rupia",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_30",
+    "storeName": "SB Shill Bidder",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_31",
+    "storeName": "Sonsoles",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_32",
+    "storeName": "Suma",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_33",
+    "storeName": "Tascani",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_34",
+    "storeName": "Urban Haus",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_35",
+    "storeName": "Vopero",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_36",
+    "storeName": "Wanama",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_37",
+    "storeName": "Watch Me",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_38",
+    "storeName": "Yamba",
+    "address": "",
+    "point": {
+      "latitude": null,
+      "longitude": null
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  }
+]

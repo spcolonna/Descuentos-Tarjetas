@@ -33,6 +33,8 @@ class Discount {
       category = CategoryDiscount.gastronomia;
     } else if (categoryString == 'librerías' || categoryString == 'librerias' || categoryString == 'libreria') {
       category = CategoryDiscount.librerias;
+    } else if (categoryString == 'moda') {
+      category = CategoryDiscount.moda;
     } else {
       category = CategoryDiscount.otro;
     }

@@ -1,1 +1,1 @@
-enum CategoryDiscount { gastronomia, librerias, otro }
+enum CategoryDiscount { gastronomia, librerias, moda, otro }

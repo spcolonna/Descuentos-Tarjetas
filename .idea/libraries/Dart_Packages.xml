@@ -121,6 +121,20 @@
             </list>
           </value>
         </entry>
+        <entry key="dart_polylabel2">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/dart_polylabel2-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="dbus">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/dbus-0.7.11/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="dotted_border">
           <value>
             <list>
@@ -271,7 +285,7 @@
         <entry key="flutter_map">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_map-8.1.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_map-8.2.1/lib" />
             </list>
           </value>
         </entry>
@@ -296,6 +310,62 @@
             </list>
           </value>
         </entry>
+        <entry key="geoclue">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geoclue-0.1.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator-14.0.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_android">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_android-5.0.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_apple">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.13/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_linux">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_linux-0.2.3/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_platform_interface-4.2.6/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_web">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_web-4.1.3/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="geolocator_windows">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_windows-0.2.5/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="google_mobile_ads">
           <value>
             <list>
@@ -303,10 +373,17 @@
             </list>
           </value>
         </entry>
+        <entry key="gsettings">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/gsettings-0.2.8/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="http">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/http-1.4.0/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/http-1.5.0/lib" />
             </list>
           </value>
         </entry>
@@ -499,10 +576,66 @@
             </list>
           </value>
         </entry>
+        <entry key="package_info_plus">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="package_info_plus_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/package_info_plus_platform_interface-3.2.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="path">
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path-1.9.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider-2.1.5/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider_android">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.2.18/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider_foundation">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider_linux">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="path_provider_windows">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/lib" />
             </list>
           </value>
         </entry>
@@ -513,17 +646,17 @@
             </list>
           </value>
         </entry>
+        <entry key="platform">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/platform-3.1.6/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="plugin_platform_interface">
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="polylabel">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/polylabel-1.0.1/lib" />
             </list>
           </value>
         </entry>
@@ -667,10 +800,24 @@
             </list>
           </value>
         </entry>
+        <entry key="win32">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/win32-5.14.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="wkt_parser">
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/wkt_parser-2.0.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="xdg_directories">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/xdg_directories-1.1.0/lib" />
             </list>
           </value>
         </entry>
@@ -708,6 +855,8 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/crypto-3.0.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_earcut-1.2.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_polylabel2-1.0.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dbus-0.7.11/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dotted_border-3.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/fake_async-1.3.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/ffi-2.1.4/lib" />
@@ -728,10 +877,19 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_card_swiper-7.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.14.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_lints-6.0.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_map-8.1.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_map-8.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.28/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geoclue-0.1.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator-14.0.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_android-5.0.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.13/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_linux-0.2.3/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_platform_interface-4.2.6/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_web-4.1.3/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/geolocator_windows-0.2.5/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_mobile_ads-6.0.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http-1.4.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/gsettings-0.2.8/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http-1.5.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http_parser-4.1.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/image-4.5.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/image_picker-1.1.2/lib" />
@@ -759,10 +917,18 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/meta-1.16.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/mgrs_dart-2.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/mime-2.0.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/package_info_plus_platform_interface-3.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path-1.9.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider-2.1.5/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_android-2.2.18/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.1.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/petitparser-6.1.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/platform-3.1.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/polylabel-1.0.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/posix-6.0.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/proj4dart-2.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_span-1.10.1/lib" />
@@ -782,7 +948,9 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/webview_flutter_android-4.9.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/webview_flutter_platform_interface-2.14.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.23.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/win32-5.14.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/wkt_parser-2.0.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/xdg_directories-1.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/xml-6.5.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/yaml-3.1.3/lib" />
       <root url="file:///usr/local/Caskroom/flutter/3.32.4/flutter/bin/cache/pkg/sky_engine/lib" />

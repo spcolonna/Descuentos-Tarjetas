@@ -3,10 +3,10 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:location/location.dart';
 
 import '../enums/Bank.dart';
 import '../enums/CardTier.dart';
@@ -103,82 +103,71 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 // Define la ubicación por defecto como una constante en tu clase para fácil acceso
   final LatLng _defaultLocation = const LatLng(-34.9038, -56.1513); // Rivera y Soca
 
+
   Future<void> _loadMapData() async {
-    LatLng position; // Variable para guardar la posición final (real o por defecto)
+    LatLng position;
 
     try {
-      // --- INTENTO DE OBTENER LA UBICACIÓN REAL ---
-      print("[DEBUG] Intentando obtener la ubicación real del usuario...");
-      Location location = Location();
+      print("[DEBUG] Verificando permisos de ubicación con Geolocator...");
 
-      // 1. Verificar servicio
-      bool serviceEnabled = await location.serviceEnabled();
-      print("[DEBUG] Service is enable: $serviceEnabled");
-      if (!serviceEnabled) serviceEnabled = await location.requestService();
-      print("[DEBUG] Service is enable 2: $serviceEnabled");
-      if (!serviceEnabled) throw Exception('Servicio de ubicación deshabilitado.');
-
-      // 2. Verificar permisos
-      PermissionStatus permissionGranted = await location.hasPermission();
-      print("[DEBUG] Permission Status: $permissionGranted");
-      if (permissionGranted == PermissionStatus.denied) {
-        permissionGranted = await location.requestPermission();
-        print("[DEBUG] Permission Status 2: $permissionGranted");
-        if (permissionGranted != PermissionStatus.granted) {
-          throw Exception('Permiso de ubicación denegado.');
+      LocationPermission permission = await Geolocator.checkPermission();
+      if (permission == LocationPermission.denied) {
+        permission = await Geolocator.requestPermission();
+        if (permission == LocationPermission.denied) {
+          throw Exception('Permiso de ubicación denegado por el usuario.');
         }
       }
 
-      // 3. Obtener ubicación con timeout
-      final locationData = await location.getLocation().timeout(
+      if (permission == LocationPermission.deniedForever) {
+        throw Exception('Permiso de ubicación denegado permanentemente. Habilítalo en los ajustes del teléfono.');
+      }
+
+      print("[DEBUG] Permisos OK. Obteniendo la ubicación actual...");
+
+      // --- AQUÍ AÑADIMOS EL TIMEOUT ---
+      final currentPosition = await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high,
+      ).timeout(
         const Duration(seconds: 15),
-        onTimeout: () => throw TimeoutException('El GPS no respondió a tiempo.'),
+        onTimeout: () {
+          throw TimeoutException('No se pudo obtener la ubicación en 15 segundos.');
+        },
       );
 
-      position = LatLng(locationData.latitude!, locationData.longitude!);
-      print("[DEBUG] Ubicación real obtenida: $position");
-
+      position = LatLng(currentPosition.latitude, currentPosition.longitude);
+      print("[DEBUG] Ubicación obtenida: $position");
     } catch (e) {
-      // --- SI CUALQUIER PARTE DE LA OBTENCIÓN DE UBICACIÓN FALLA ---
-      print("[DEBUG] Falló la obtención de ubicación: ${e.toString()}. Usando ubicación por defecto.");
-      position = _defaultLocation; // Asigna la ubicación por defecto
-
-      // Opcional pero recomendado: Muestra una notificación no intrusiva
-      if (mounted) {
+      print("[DEBUG] Falló la obtención de ubicación: $e");
+      position = _defaultLocation; // Usamos la ubicación por defecto
+      if(mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: const Text('No se pudo obtener tu ubicación. Mostrando mapa desde Rivera y Soca.'),
-            backgroundColor: Colors.orange[800],
-            duration: const Duration(seconds: 4),
-          ),
+          SnackBar(content: Text(e.toString())),
         );
       }
     }
 
-    // --- DESPUÉS DE OBTENER UNA UBICACIÓN (REAL O POR DEFECTO), CARGA LOS DESCUENTOS ---
-    // Este bloque ahora se ejecuta siempre.
+    // El resto de la lógica para cargar los descuentos se mantiene igual
     try {
       print("[DEBUG] Cargando descuentos...");
       final discounts = await _discountService.loadAllDiscounts();
 
       if (mounted) {
         setState(() {
-          _currentPosition = position; // Usa la posición que se haya determinado
+          _currentPosition = position;
           _allDiscounts = discounts;
           _filteredDiscounts = discounts;
           _isLoading = false;
-          _errorMessage = null; // Nos aseguramos de que no haya mensaje de error en la UI
+          _errorMessage = null;
         });
         print("[DEBUG] ¡Mapa y descuentos cargados!");
       }
     } catch (e) {
-      // Este catch es por si falla la carga de los archivos JSON
       print("[DEBUG] ERROR CRÍTICO al cargar los descuentos: ${e.toString()}");
       if (mounted) {
         setState(() {
           _errorMessage = "No se pudieron cargar los comercios.";
           _isLoading = false;
-          _currentPosition = _defaultLocation; // Aún así, muestra el mapa
+          _currentPosition = _defaultLocation;
         });
       }
     }
@@ -237,16 +226,24 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
           child: Stack(
             children: [
               FlutterMap(
-                mapController: _mapController,
+                mapController: _mapController, // <-- No te olvides de asignar el controlador
                 options: MapOptions(
                   initialCenter: _currentPosition!,
-                  initialZoom: 13.0,
+                  initialZoom: 13,
                 ),
                 children: [
-                  TileLayer(urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'),
-                  MarkerLayer(markers: _buildMarkers()),
+                  TileLayer(
+                    urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                    userAgentPackageName: 'com.example.descuentos_uy', // <-- Asegúrate que coincida con tu package name
+                  ),
+                  // --- CORRECCIÓN AQUÍ ---
+                  // Ahora llamamos al método _buildMarkers() que contiene la lógica correcta
+                  MarkerLayer(
+                    markers: _buildMarkers(),
+                  ),
                 ],
               ),
+              // El resto del Stack (botones de zoom) se mantiene igual
               SafeArea(
                 child: Padding(
                   padding: const EdgeInsets.only(right: 10.0, top: 10.0),

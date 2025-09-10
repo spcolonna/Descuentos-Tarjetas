@@ -5,6 +5,7 @@ import '../models/discount.dart';
 class JsonDiscountService {
   final List<String> _discountFiles = [
     'assets/discounts/itau.json',
+    'assets/discounts/itau_moda.json',
     'assets/discounts/scotiabank.json',
     'assets/discounts/brou.json',
     'assets/discounts/bbva.json',
