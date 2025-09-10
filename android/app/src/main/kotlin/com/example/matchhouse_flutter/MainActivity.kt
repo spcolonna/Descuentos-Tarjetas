@@ -1,4 +1,4 @@
-package com.example.matchhouse_flutter
+package com.descuentos_uy
 
 import io.flutter.embedding.android.FlutterActivity
 

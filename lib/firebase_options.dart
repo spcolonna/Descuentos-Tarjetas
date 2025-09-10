@@ -65,7 +65,7 @@ class DefaultFirebaseOptions {
     projectId: 'matchhouse-ca5a8',
     storageBucket: 'matchhouse-ca5a8.firebasestorage.app',
     iosClientId: '646852870470-lht0q08mhhk4g2245sbugtbj3g9ju80e.apps.googleusercontent.com',
-    iosBundleId: 'com.example.matchhouseFlutter',
+    iosBundleId: 'com.descuentosUY',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -75,7 +75,7 @@ class DefaultFirebaseOptions {
     projectId: 'matchhouse-ca5a8',
     storageBucket: 'matchhouse-ca5a8.firebasestorage.app',
     iosClientId: '646852870470-lht0q08mhhk4g2245sbugtbj3g9ju80e.apps.googleusercontent.com',
-    iosBundleId: 'com.example.matchhouseFlutter',
+    iosBundleId: 'com.descuentosUY',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(

@@ -57,7 +57,7 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
     if (kReleaseMode) {
       if (Platform.isAndroid) {
-        adUnitId = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX_PROD_ANDROID';
+        adUnitId = 'ca-app-pub-9552343552775183/7317141133';
       } else if (Platform.isIOS) {
         adUnitId = 'ca-app-pub-9552343552775183/8187504751';
       } else {
@@ -113,13 +113,17 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
       // 1. Verificar servicio
       bool serviceEnabled = await location.serviceEnabled();
+      print("[DEBUG] Service is enable: $serviceEnabled");
       if (!serviceEnabled) serviceEnabled = await location.requestService();
+      print("[DEBUG] Service is enable 2: $serviceEnabled");
       if (!serviceEnabled) throw Exception('Servicio de ubicación deshabilitado.');
 
       // 2. Verificar permisos
       PermissionStatus permissionGranted = await location.hasPermission();
+      print("[DEBUG] Permission Status: $permissionGranted");
       if (permissionGranted == PermissionStatus.denied) {
         permissionGranted = await location.requestPermission();
+        print("[DEBUG] Permission Status 2: $permissionGranted");
         if (permissionGranted != PermissionStatus.granted) {
           throw Exception('Permiso de ubicación denegado.');
         }
