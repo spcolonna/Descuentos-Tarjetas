@@ -2,10 +2,10 @@
   {
     "id": "itau_moda_1",
     "storeName": "Amadeus",
-    "address": "",
+    "address": "Calle 20 El Remanso",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.960270344082915,
+      "longitude": -54.9437186539995
     },
     "bank": "itau",
     "category": "moda",
@@ -27,10 +27,10 @@
   {
     "id": "itau_moda_2",
     "storeName": "Amén",
-    "address": "",
+    "address": "Guipúzcoa 407",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.9212861662349,
+      "longitude": -56.156181876802634
     },
     "bank": "itau",
     "category": "moda",
@@ -52,10 +52,10 @@
   {
     "id": "itau_moda_3",
     "storeName": "anthea",
-    "address": "",
+    "address": "José Ellauri 493 bis",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92147040218047,
+      "longitude": -56.15795630094979
     },
     "bank": "itau",
     "category": "moda",
@@ -77,10 +77,35 @@
   {
     "id": "itau_moda_4",
     "storeName": "Brixton",
-    "address": "",
+    "address": "José Ellauri 500",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92147408914039,
+      "longitude": -56.157546238616234
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_4_1",
+    "storeName": "Brixton",
+    "address": "Arocena 1626",
+    "point": {
+      "latitude": -34.8877368741962,
+      "longitude": -56.0572754951715
     },
     "bank": "itau",
     "category": "moda",
@@ -102,10 +127,10 @@
   {
     "id": "itau_moda_5",
     "storeName": "By—Florencia",
-    "address": "",
+    "address": "Miraflores 1482",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.89097873045502,
+      "longitude": -56.06165664120872
     },
     "bank": "itau",
     "category": "moda",
@@ -127,10 +152,10 @@
   {
     "id": "itau_moda_6",
     "storeName": "Capri",
-    "address": "",
+    "address": "José Ellauri 493",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.921475347180916,
+      "longitude": -56.157962804569856
     },
     "bank": "itau",
     "category": "moda",
@@ -152,10 +177,10 @@
   {
     "id": "itau_moda_7",
     "storeName": "Damen",
-    "address": "",
+    "address": "José Ellauri 507",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92116911700096,
+      "longitude": -56.157661488240635
     },
     "bank": "itau",
     "category": "moda",
@@ -177,10 +202,10 @@
   {
     "id": "itau_moda_8",
     "storeName": "Denali",
-    "address": "",
+    "address": "21 de Setiembre 3039",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.919664729676064,
+      "longitude": -56.151547860372474
     },
     "bank": "itau",
     "category": "moda",
@@ -202,10 +227,10 @@
   {
     "id": "itau_moda_9",
     "storeName": "Don Baez",
-    "address": "",
+    "address": "José Ellauri 514",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.921165012531134,
+      "longitude": -56.15720588239887
     },
     "bank": "itau",
     "category": "moda",
@@ -227,10 +252,10 @@
   {
     "id": "itau_moda_10",
     "storeName": "El Beso",
-    "address": "",
+    "address": "Ruta 10, km 160, 20001 La Barra",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.90962917376913,
+      "longitude": -54.86132503513921
     },
     "bank": "itau",
     "category": "moda",
@@ -252,10 +277,10 @@
   {
     "id": "itau_moda_11",
     "storeName": "Ferrero",
-    "address": "",
+    "address": "Gral. Leandro Gomez 1157",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -32.316200851130716,
+      "longitude": -58.081552185484995
     },
     "bank": "itau",
     "category": "moda",
@@ -277,10 +302,10 @@
   {
     "id": "itau_moda_12",
     "storeName": "Jibona",
-    "address": "",
+    "address": "Rostand 1571",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.88930046405996,
+      "longitude": -56.056178989130146
     },
     "bank": "itau",
     "category": "moda",
@@ -302,10 +327,10 @@
   {
     "id": "itau_moda_13",
     "storeName": "Kevingston",
-    "address": "",
+    "address": "José Ellauri 500",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92145115570755,
+      "longitude": -56.157627908969744
     },
     "bank": "itau",
     "category": "moda",
@@ -327,10 +352,10 @@
   {
     "id": "itau_moda_14",
     "storeName": "La Boutique Paris",
-    "address": "",
+    "address": "10 km 164, 20000 Manantiales",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.904825030376045,
+      "longitude": -54.82786790491883
     },
     "bank": "itau",
     "category": "moda",
@@ -352,10 +377,10 @@
   {
     "id": "itau_moda_15",
     "storeName": "Lanka",
-    "address": "",
+    "address": "Dr. José María Montero 2779",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.919805315157234,
+      "longitude": -56.15959108481633
     },
     "bank": "itau",
     "category": "moda",
@@ -377,10 +402,10 @@
   {
     "id": "itau_moda_16",
     "storeName": "Magnolia",
-    "address": "",
+    "address": "Carlos Federico Saez 6467",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.832675992838894,
+      "longitude": -56.05614540657479
     },
     "bank": "itau",
     "category": "moda",
@@ -402,10 +427,10 @@
   {
     "id": "itau_moda_17",
     "storeName": "Mandinga",
-    "address": "",
+    "address": "Gabriel Pereira 3200",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.90956301688168,
+      "longitude": -56.14765644687955
     },
     "bank": "itau",
     "category": "moda",
@@ -427,10 +452,10 @@
   {
     "id": "itau_moda_18",
     "storeName": "Marimba",
-    "address": "",
+    "address": "Dr. Alejandro Schroeder 6444",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.88750095780028,
+      "longitude": -56.058231500853225
     },
     "bank": "itau",
     "category": "moda",
@@ -452,10 +477,10 @@
   {
     "id": "itau_moda_19",
     "storeName": "Maura",
-    "address": "",
+    "address": "21 de Setiembre 3015",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91772691783293,
+      "longitude": -56.15210131732304
     },
     "bank": "itau",
     "category": "moda",
@@ -477,10 +502,10 @@
   {
     "id": "itau_moda_20",
     "storeName": "Oklo",
-    "address": "",
+    "address": "Luis de la Torre 847",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91531521014566,
+      "longitude": -56.15623471798102
     },
     "bank": "itau",
     "category": "moda",
@@ -502,10 +527,10 @@
   {
     "id": "itau_moda_21",
     "storeName": "Óptica Nova",
-    "address": "",
+    "address": "21 de Setiembre 2864",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91912275466302,
+      "longitude": -56.15555434512789
     },
     "bank": "itau",
     "category": "moda",
@@ -527,10 +552,60 @@
   {
     "id": "itau_moda_22",
     "storeName": "Panthai",
-    "address": "",
+    "address": "Blvr. 26 de Marzo 1029",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91174056343134,
+      "longitude": -56.1523479628214
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_22_1",
+    "storeName": "Panthai",
+    "address": "Rostand 1571",
+    "point": {
+      "latitude": -34.889383291871034,
+      "longitude": -56.05614403147202
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_22_2",
+    "storeName": "Panthai",
+    "address": "El Remanso 20 29, 20100 Punta del Este",
+    "point": {
+      "latitude": -34.95904334313487,
+      "longitude": -54.94163575553466
     },
     "bank": "itau",
     "category": "moda",
@@ -552,10 +627,10 @@
   {
     "id": "itau_moda_23",
     "storeName": "Paulista",
-    "address": "",
+    "address": "Costa Rica 1780",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.88476410797922,
+      "longitude": -56.05739629489494
     },
     "bank": "itau",
     "category": "moda",
@@ -577,10 +652,10 @@
   {
     "id": "itau_moda_24",
     "storeName": "Perpetua",
-    "address": "",
+    "address": "21 de Setiembre 3091",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -31.763519577774172,
+      "longitude": -55.44740613077831
     },
     "bank": "itau",
     "category": "moda",
@@ -602,10 +677,60 @@
   {
     "id": "itau_moda_25",
     "storeName": "Petra",
-    "address": "",
+    "address": "Ruta 10 esq. Ensueños - La Barra",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91465124638832,
+      "longitude": -54.861564661834066
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_25_1",
+    "storeName": "Petra",
+    "address": "21 de Setiembre 2895",
+    "point": {
+      "latitude": -34.9191833268366,
+      "longitude": -56.15433686159667
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_25_2",
+    "storeName": "Petra",
+    "address": "Arocena 1693",
+    "point": {
+      "latitude": -34.887211563245955,
+      "longitude": -56.058233895759386
     },
     "bank": "itau",
     "category": "moda",
@@ -627,10 +752,10 @@
   {
     "id": "itau_moda_26",
     "storeName": "Petrichor",
-    "address": "",
+    "address": "Juan D Jackson 896",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91280686428955,
+      "longitude": -56.1724408286187
     },
     "bank": "itau",
     "category": "moda",
@@ -652,10 +777,10 @@
   {
     "id": "itau_moda_27",
     "storeName": "Pura Lana",
-    "address": "",
+    "address": "21 de Setiembre 2710",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91687667994838,
+      "longitude": -56.15827870699676
     },
     "bank": "itau",
     "category": "moda",
@@ -677,10 +802,10 @@
   {
     "id": "itau_moda_28",
     "storeName": "Puropunto",
-    "address": "",
+    "address": "Solano García 2454",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92236511079763,
+      "longitude": -56.16042208239886
     },
     "bank": "itau",
     "category": "moda",
@@ -702,10 +827,10 @@
   {
     "id": "itau_moda_29",
     "storeName": "Rupia",
-    "address": "",
+    "address": "PickUp zona Punta Carretas",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.92151491277226,
+      "longitude": -56.15468486947783
     },
     "bank": "itau",
     "category": "moda",
@@ -727,10 +852,10 @@
   {
     "id": "itau_moda_30",
     "storeName": "SB Shill Bidder",
-    "address": "",
+    "address": "Jose Ellauri 493 bis",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.921551029381,
+      "longitude": -56.15792762260574
     },
     "bank": "itau",
     "category": "moda",
@@ -752,10 +877,35 @@
   {
     "id": "itau_moda_31",
     "storeName": "Sonsoles",
-    "address": "",
+    "address": "Rostand 1571",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.88920891483325,
+      "longitude": -56.056071114346324
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_31_1",
+    "storeName": "Sonsoles",
+    "address": "Calle 29 & Calle 20",
+    "point": {
+      "latitude": -34.95930719977678,
+      "longitude": -54.942191047987585
     },
     "bank": "itau",
     "category": "moda",
@@ -777,10 +927,10 @@
   {
     "id": "itau_moda_32",
     "storeName": "Suma",
-    "address": "",
+    "address": "Rostand 1564",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.889543576038285,
+      "longitude": -56.05585237019372
     },
     "bank": "itau",
     "category": "moda",
@@ -802,10 +952,10 @@
   {
     "id": "itau_moda_33",
     "storeName": "Tascani",
-    "address": "",
+    "address": "20 - El Remanso 29",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.960476809971055,
+      "longitude": -54.943315204548895
     },
     "bank": "itau",
     "category": "moda",
@@ -827,10 +977,35 @@
   {
     "id": "itau_moda_34",
     "storeName": "Urban Haus",
-    "address": "",
+    "address": "C. Lunas de Oro",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.94255337655649,
+      "longitude": -54.935172182149145
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_34_1",
+    "storeName": "Urban Haus",
+    "address": "Calle 20",
+    "point": {
+      "latitude": -34.95929680105062,
+      "longitude": -54.94358358925166
     },
     "bank": "itau",
     "category": "moda",
@@ -852,10 +1027,35 @@
   {
     "id": "itau_moda_35",
     "storeName": "Vopero",
-    "address": "",
+    "address": "Luis Alberto de Herrera 1248",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.90513152980306,
+      "longitude": -56.13624110306955
+    },
+    "bank": "itau",
+    "category": "moda",
+    "discounts": [
+      {
+        "cardType": "Débito y Crédito Común",
+        "value": 15,
+        "tier": "basic",
+        "description": "15% de ahorro."
+      },
+      {
+        "cardType": "Tarjetas Premium",
+        "value": 25,
+        "tier": "premium",
+        "description": "25% de ahorro."
+      }
+    ]
+  },
+  {
+    "id": "itau_moda_35_1",
+    "storeName": "Vopero",
+    "address": "José Ellauri 350",
+    "point": {
+      "latitude": -34.92321245992521,
+      "longitude": -56.158457260372224
     },
     "bank": "itau",
     "category": "moda",
@@ -877,10 +1077,10 @@
   {
     "id": "itau_moda_36",
     "storeName": "Wanama",
-    "address": "",
+    "address": "Av. Dr. Luis Alberto de Herrera 1290",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.868029378128746,
+      "longitude": -56.158815219788295
     },
     "bank": "itau",
     "category": "moda",
@@ -902,10 +1102,10 @@
   {
     "id": "itau_moda_37",
     "storeName": "Watch Me",
-    "address": "",
+    "address": "Luis alberto de herrera 1290",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.90240264033329,
+      "longitude": -56.13667847238538
     },
     "bank": "itau",
     "category": "moda",
@@ -927,10 +1127,10 @@
   {
     "id": "itau_moda_38",
     "storeName": "Yamba",
-    "address": "",
+    "address": "Juan D. Jackson 896",
     "point": {
-      "latitude": null,
-      "longitude": null
+      "latitude": -34.91279922628832,
+      "longitude": -56.17238086552899
     },
     "bank": "itau",
     "category": "moda",
