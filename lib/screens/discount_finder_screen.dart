@@ -371,7 +371,7 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
         DropdownMenuItem<CategoryDiscount?>(value: null, child: Text("Todas")),
         DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.gastronomia, child: Text("Gastronomía")),
         DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.librerias, child: Text("Librería")),
-        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.librerias, child: Text("Moda")),
+        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.moda, child: Text("Moda")),
         DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.otro, child: Text("Otros")),
       ],
     );
