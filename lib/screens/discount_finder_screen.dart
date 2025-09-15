@@ -16,7 +16,6 @@ import '../services/json_discount_service.dart';
 import '../widgets/DiscountInfoBottomSheet.dart';
 import '../widgets/DiscountMapMarker.dart';
 
-
 class DiscountFinderScreen extends StatefulWidget {
   const DiscountFinderScreen({super.key});
 
@@ -34,14 +33,14 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   List<Discount> _allDiscounts = [];
   List<Discount> _filteredDiscounts = [];
 
-  Bank? _selectedBank;
-  CategoryDiscount? _selectedCategory;
+  // 🔹 ahora son listas para multi-select
+  List<Bank> _selectedBanks = [];
+  List<CategoryDiscount> _selectedCategories = [];
   CardTier? _selectedCardTier;
   double _minDiscountValue = 0;
 
   BannerAd? _bannerAd;
   bool _isBannerAdLoaded = false;
-
 
   @override
   void initState() {
@@ -51,8 +50,6 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   }
 
   void _loadBannerAd() {
-    // ID del bloque de anuncios de PRUEBA para un banner en Android.
-    // ¡Usa siempre los de prueba durante el desarrollo!
     String adUnitId;
 
     if (kReleaseMode) {
@@ -78,13 +75,11 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
-        // Se llama cuando el anuncio se carga correctamente
         onAdLoaded: (ad) {
           setState(() {
             _isBannerAdLoaded = true;
           });
         },
-        // Se llama si la carga del anuncio falla
         onAdFailedToLoad: (ad, err) {
           print('Fallo al cargar el banner: $err');
           ad.dispose();
@@ -95,21 +90,17 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
   @override
   void dispose() {
-    _bannerAd?.dispose(); // Muy importante liberar la memoria del anuncio
+    _bannerAd?.dispose();
     super.dispose();
   }
 
-
-// Define la ubicación por defecto como una constante en tu clase para fácil acceso
-  final LatLng _defaultLocation = const LatLng(-34.9038, -56.1513); // Rivera y Soca
-
+  final LatLng _defaultLocation =
+  const LatLng(-34.9038, -56.1513); // Rivera y Soca
 
   Future<void> _loadMapData() async {
     LatLng position;
 
     try {
-      print("[DEBUG] Verificando permisos de ubicación con Geolocator...");
-
       LocationPermission permission = await Geolocator.checkPermission();
       if (permission == LocationPermission.denied) {
         permission = await Geolocator.requestPermission();
@@ -119,36 +110,32 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
       }
 
       if (permission == LocationPermission.deniedForever) {
-        throw Exception('Permiso de ubicación denegado permanentemente. Habilítalo en los ajustes del teléfono.');
+        throw Exception(
+            'Permiso de ubicación denegado permanentemente. Habilítalo en los ajustes del teléfono.');
       }
 
-      print("[DEBUG] Permisos OK. Obteniendo la ubicación actual...");
-
-      // --- AQUÍ AÑADIMOS EL TIMEOUT ---
       final currentPosition = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.high,
       ).timeout(
         const Duration(seconds: 15),
         onTimeout: () {
-          throw TimeoutException('No se pudo obtener la ubicación en 15 segundos.');
+          throw TimeoutException(
+              'No se pudo obtener la ubicación en 15 segundos.');
         },
       );
 
       position = LatLng(currentPosition.latitude, currentPosition.longitude);
-      print("[DEBUG] Ubicación obtenida: $position");
     } catch (e) {
       print("[DEBUG] Falló la obtención de ubicación: $e");
-      position = _defaultLocation; // Usamos la ubicación por defecto
-      if(mounted) {
+      position = _defaultLocation;
+      if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(e.toString())),
         );
       }
     }
 
-    // El resto de la lógica para cargar los descuentos se mantiene igual
     try {
-      print("[DEBUG] Cargando descuentos...");
       final discounts = await _discountService.loadAllDiscounts();
 
       if (mounted) {
@@ -159,10 +146,8 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
           _isLoading = false;
           _errorMessage = null;
         });
-        print("[DEBUG] ¡Mapa y descuentos cargados!");
       }
     } catch (e) {
-      print("[DEBUG] ERROR CRÍTICO al cargar los descuentos: ${e.toString()}");
       if (mounted) {
         setState(() {
           _errorMessage = "No se pudieron cargar los comercios.";
@@ -175,16 +160,21 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
 
   void _applyFilters() {
     List<Discount> filtered = _allDiscounts;
-    if (_selectedBank != null) {
-      filtered = filtered.where((d) => d.bank == _selectedBank).toList();
+
+    if (_selectedBanks.isNotEmpty) {
+      filtered =
+          filtered.where((d) => _selectedBanks.contains(d.bank)).toList();
     }
-    if (_selectedCategory != null) {
-      filtered = filtered.where((d) => d.category == _selectedCategory).toList();
+
+    if (_selectedCategories.isNotEmpty) {
+      filtered =
+          filtered.where((d) => _selectedCategories.contains(d.category)).toList();
     }
 
     filtered = filtered.where((discount) {
       return discount.discounts.any((tier) {
-        final bool tierMatches = _selectedCardTier == null || tier.tier == _selectedCardTier;
+        final bool tierMatches =
+            _selectedCardTier == null || tier.tier == _selectedCardTier;
         final bool valueMatches = tier.value >= _minDiscountValue;
         return tierMatches && valueMatches;
       });
@@ -202,7 +192,6 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
         title: const Text('Buscador de Descuentos'),
         centerTitle: true,
       ),
-      // Usamos un SafeArea para evitar que los elementos se superpongan con la UI del sistema (notch, etc.)
       body: SafeArea(
         child: _buildBody(),
       ),
@@ -212,7 +201,7 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
         width: _bannerAd!.size.width.toDouble(),
         child: AdWidget(ad: _bannerAd!),
       )
-          : const SizedBox(), // Si no está cargado, no muestra nada
+          : const SizedBox(),
     );
   }
 
@@ -226,24 +215,21 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
           child: Stack(
             children: [
               FlutterMap(
-                mapController: _mapController, // <-- No te olvides de asignar el controlador
+                mapController: _mapController,
                 options: MapOptions(
                   initialCenter: _currentPosition!,
-                  initialZoom: 13,
+                  initialZoom: 16, // 🔹 zoom inicial más grande
                 ),
                 children: [
                   TileLayer(
                     urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                    userAgentPackageName: 'com.example.descuentos_uy', // <-- Asegúrate que coincida con tu package name
+                    userAgentPackageName: 'com.example.descuentos_uy',
                   ),
-                  // --- CORRECCIÓN AQUÍ ---
-                  // Ahora llamamos al método _buildMarkers() que contiene la lógica correcta
                   MarkerLayer(
                     markers: _buildMarkers(),
                   ),
                 ],
               ),
-              // El resto del Stack (botones de zoom) se mantiene igual
               SafeArea(
                 child: Padding(
                   padding: const EdgeInsets.only(right: 10.0, top: 10.0),
@@ -253,14 +239,24 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
                         FloatingActionButton(
-                          mini: true, heroTag: "zoom-in-btn",
-                          onPressed: () { _mapController.move(_mapController.camera.center, _mapController.camera.zoom + 1); },
+                          mini: true,
+                          heroTag: "zoom-in-btn",
+                          onPressed: () {
+                            _mapController.move(
+                                _mapController.camera.center,
+                                _mapController.camera.zoom + 1);
+                          },
                           child: const Icon(Icons.add),
                         ),
                         const SizedBox(height: 8),
                         FloatingActionButton(
-                          mini: true, heroTag: "zoom-out-btn",
-                          onPressed: () { _mapController.move(_mapController.camera.center, _mapController.camera.zoom - 1); },
+                          mini: true,
+                          heroTag: "zoom-out-btn",
+                          onPressed: () {
+                            _mapController.move(
+                                _mapController.camera.center,
+                                _mapController.camera.zoom - 1);
+                          },
                           child: const Icon(Icons.remove),
                         ),
                       ],
@@ -279,19 +275,26 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   List<Marker> _buildMarkers() {
     final List<Marker> markers = [];
     if (_currentPosition != null) {
-      markers.add(Marker(point: _currentPosition!, child: const Icon(Icons.person_pin_circle, color: Colors.blue, size: 50)));
+      markers.add(Marker(
+          point: _currentPosition!,
+          child: const Icon(Icons.person_pin_circle,
+              color: Colors.blue, size: 50)));
     }
     for (final discount in _filteredDiscounts) {
       markers.add(
         Marker(
-          width: 40, height: 40,
+          width: 40,
+          height: 40,
           point: discount.point,
           child: GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
-                shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
-                builder: (context) => DiscountInfoBottomSheet(discount: discount),
+                shape: const RoundedRectangleBorder(
+                    borderRadius:
+                    BorderRadius.vertical(top: Radius.circular(20))),
+                builder: (context) =>
+                    DiscountInfoBottomSheet(discount: discount),
               );
             },
             child: DiscountMapMarker(
@@ -308,7 +311,6 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   Widget _buildFilterPanel() {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      // Usamos una decoración para darle un borde superior y distinguirlo del mapa
       decoration: BoxDecoration(
         color: Theme.of(context).scaffoldBackgroundColor,
         boxShadow: [
@@ -340,57 +342,138 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
   }
 
   Widget _buildBankFilter() {
-    return DropdownButton<Bank?>(
-      isExpanded: true,
-      value: _selectedBank,
-      hint: const Text("Todos los Bancos"),
-      onChanged: (Bank? newValue) {
-        setState(() { _selectedBank = newValue; });
-        _applyFilters();
+    return ElevatedButton(
+      onPressed: () async {
+        final result = await showDialog<List<Bank>>(
+          context: context,
+          builder: (ctx) {
+            return AlertDialog(
+              title: const Text("Seleccionar Bancos"),
+              content: StatefulBuilder(
+                builder: (ctx, setStateDialog) {
+                  return SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: Bank.values.map((bank) {
+                        return CheckboxListTile(
+                          title: Text(bank.name[0].toUpperCase() +
+                              bank.name.substring(1)),
+                          value: _selectedBanks.contains(bank),
+                          onChanged: (checked) {
+                            setStateDialog(() {
+                              if (checked == true) {
+                                _selectedBanks.add(bank);
+                              } else {
+                                _selectedBanks.remove(bank);
+                              }
+                            });
+                          },
+                        );
+                      }).toList(),
+                    ),
+                  );
+                },
+              ),
+              actions: [
+                TextButton(
+                    onPressed: () => Navigator.pop(ctx, null),
+                    child: const Text("Cancelar")),
+                ElevatedButton(
+                    onPressed: () => Navigator.pop(ctx, _selectedBanks),
+                    child: const Text("Aceptar")),
+              ],
+            );
+          },
+        );
+
+        if (result != null) {
+          setState(() {
+            _selectedBanks = result;
+          });
+          _applyFilters();
+        }
       },
-      items: [
-        const DropdownMenuItem<Bank?>(value: null, child: Text("Todos los Bancos")),
-        ...Bank.values.map((bank) {
-          String bankName = bank.name[0].toUpperCase() + bank.name.substring(1);
-          return DropdownMenuItem<Bank>(value: bank, child: Text(bankName));
-        }).toList(),
-      ],
+      child: Text(_selectedBanks.isEmpty
+          ? "Todos los Bancos"
+          : "${_selectedBanks.length} bancos"),
     );
   }
 
   Widget _buildCategoryFilter() {
-    return DropdownButton<CategoryDiscount?>(
-      isExpanded: true,
-      value: _selectedCategory,
-      hint: const Text("Categoría"),
-      onChanged: (CategoryDiscount? newValue) {
-        setState(() { _selectedCategory = newValue; });
-        _applyFilters();
+    return ElevatedButton(
+      onPressed: () async {
+        final result = await showDialog<List<CategoryDiscount>>(
+          context: context,
+          builder: (ctx) {
+            return AlertDialog(
+              title: const Text("Seleccionar Categorías"),
+              content: StatefulBuilder(
+                builder: (ctx, setStateDialog) {
+                  return SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: CategoryDiscount.values.map((cat) {
+                        return CheckboxListTile(
+                          title: Text(cat.name[0].toUpperCase() +
+                              cat.name.substring(1)),
+                          value: _selectedCategories.contains(cat),
+                          onChanged: (checked) {
+                            setStateDialog(() {
+                              if (checked == true) {
+                                _selectedCategories.add(cat);
+                              } else {
+                                _selectedCategories.remove(cat);
+                              }
+                            });
+                          },
+                        );
+                      }).toList(),
+                    ),
+                  );
+                },
+              ),
+              actions: [
+                TextButton(
+                    onPressed: () => Navigator.pop(ctx, null),
+                    child: const Text("Cancelar")),
+                ElevatedButton(
+                    onPressed: () => Navigator.pop(ctx, _selectedCategories),
+                    child: const Text("Aceptar")),
+              ],
+            );
+          },
+        );
+
+        if (result != null) {
+          setState(() {
+            _selectedCategories = result;
+          });
+          _applyFilters();
+        }
       },
-      items: const [
-        DropdownMenuItem<CategoryDiscount?>(value: null, child: Text("Todas")),
-        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.gastronomia, child: Text("Gastronomía")),
-        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.librerias, child: Text("Librería")),
-        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.moda, child: Text("Moda")),
-        DropdownMenuItem<CategoryDiscount?>(value: CategoryDiscount.otro, child: Text("Otros")),
-      ],
+      child: Text(_selectedCategories.isEmpty
+          ? "Todas las Categorías"
+          : "${_selectedCategories.length} categorías"),
     );
   }
 
-// MÉTODO NUEVO PARA EL FILTRO DE TIPO DE TARJETA
   Widget _buildCardTierFilter() {
     return DropdownButton<CardTier?>(
       isExpanded: true,
       value: _selectedCardTier,
       hint: const Text("Todo tipo de Tarjeta"),
       onChanged: (CardTier? newValue) {
-        setState(() { _selectedCardTier = newValue; });
+        setState(() {
+          _selectedCardTier = newValue;
+        });
         _applyFilters();
       },
       items: const [
-        DropdownMenuItem<CardTier?>(value: null, child: Text("Todas (Común y Premium)")),
+        DropdownMenuItem<CardTier?>(
+            value: null, child: Text("Todas (Común y Premium)")),
         DropdownMenuItem<CardTier?>(value: CardTier.basic, child: Text("Común")),
-        DropdownMenuItem<CardTier?>(value: CardTier.premium, child: Text("Premium")),
+        DropdownMenuItem<CardTier?>(
+            value: CardTier.premium, child: Text("Premium")),
       ],
     );
   }
@@ -406,7 +489,9 @@ class _DiscountFinderScreenState extends State<DiscountFinderScreen> {
           divisions: 10,
           label: "${_minDiscountValue.toInt()}%",
           onChanged: (double value) {
-            setState(() { _minDiscountValue = value; });
+            setState(() {
+              _minDiscountValue = value;
+            });
           },
           onChangeEnd: (double value) {
             _applyFilters();
